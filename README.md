@@ -214,11 +214,3 @@ python run_workflow.py generate-manuscript-figures \
   --locked-state-vqe-hardware-summary examples/summaries/locked_state_vqe_hardware_20260515_summary.json \
   --output-dir outputs/manuscript_figures_example
 ```
-
-## Notes
-
-- The locked-state VQE workflows rely on the bundled `locked_state_payloads/` JSON files.
-- The example summaries are included so the plotting workflow can be demonstrated without reaching outside this folder.
-- The hardware reducer is generic to the manifest shape written by the bundled submission scripts.
-- Hardware outputs will vary across calibration windows and backend revisions.
-- For publication, upload the contents of this folder as the repository root; do not publish generated `outputs/` data or any IBM credential values.
