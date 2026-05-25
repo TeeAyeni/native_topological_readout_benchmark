@@ -1,6 +1,6 @@
-# QWC Hamiltonian Public Code Subset
+# Native topological readout benchmark Public Code Subset
 
-This folder contains the self-contained public release for the QWC Hamiltonian study. The layout is organized around what a new user actually needs to do:
+This folder contains the self-contained public release for the research study on the native topological Hamiltonian measurement benchmark. The layout is organized around what a new user actually needs to do:
 
 - run a workflow
 - reduce or analyze outputs
