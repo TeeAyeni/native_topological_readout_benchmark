@@ -53,13 +53,6 @@ pip install -r requirements.txt
 
 The versions were chosen from the validated archive environment.
 
-## Repository Metadata
-
-Publish-facing metadata drafts are included in this folder:
-
-- `GITHUB_METADATA.md` for the repository description, topics, and release copy
-- `RELEASE_NOTES_v1.0.0.md` for the initial public release notes
-- `CITATION.cff` for software citation metadata
 
 ## Publish Preflight
 
