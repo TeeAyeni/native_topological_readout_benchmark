@@ -1,0 +1,4235 @@
+{
+  "dataset": "bundled_example:floquet_noiseless_hamiltonian.jsonl",
+  "group_fields": [
+    "dataset_tag",
+    "num_qubits",
+    "num_steps",
+    "budget_total"
+  ],
+  "groups": [
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 1,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.1393661258407397,
+          "estimate_std": 0.040567991632097226,
+          "bias_empirical": -0.0025970095761987944,
+          "var_empirical": 0.0016457619450619106,
+          "mse_empirical": 0.0016525064038007788,
+          "mse_empirical_from_decomposition": 0.0016525064038007788,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0108248290749672,
+          "mean_sampling_stderr": 0.10404235311662914,
+          "mse_model_bias_plus_mean_sampling_var": 0.010831573533706068
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.08457414860730669,
+          "estimate_std": 0.06534481401415873,
+          "bias_empirical": 0.05219496765723422,
+          "var_empirical": 0.0042699447185449955,
+          "mse_empirical": 0.006994259367284721,
+          "mse_empirical_from_decomposition": 0.006994259367284722,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.01814068592393956,
+          "mean_sampling_stderr": 0.13468557826764682,
+          "mse_model_bias_plus_mean_sampling_var": 0.020865000572679288
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.005341752963483942,
+        "delta_model_based_mse": -0.01003342703897322
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 1,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.436071273359409,
+          "estimate_std": 0.4239939803075144,
+          "bias_empirical": -0.29930215709486807,
+          "var_empirical": 0.1797708953370089,
+          "mse_empirical": 0.26935267657865,
+          "mse_empirical_from_decomposition": 0.26935267657865,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.08681866280900168,
+          "mean_sampling_stderr": 0.2946454141192868,
+          "mse_model_bias_plus_mean_sampling_var": 0.17640044405064276
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.27703530801331944,
+          "estimate_std": 0.3556271242857529,
+          "bias_empirical": -0.14026619174877852,
+          "var_empirical": 0.12647065152775433,
+          "mse_empirical": 0.14614525607545942,
+          "mse_empirical_from_decomposition": 0.14614525607545945,
+          "mse_decomposition_gap": -2.7755575615628914e-17,
+          "mean_sampling_variance": 0.14239632721577813,
+          "mean_sampling_stderr": 0.37710442547817613,
+          "mse_model_bias_plus_mean_sampling_var": 0.16207093176348325
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.12320742050319056,
+        "delta_model_based_mse": 0.014329512287159507
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 1,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.19655968265416535,
+          "estimate_std": 0.10128867870484738,
+          "bias_empirical": -0.05979056638962443,
+          "var_empirical": 0.010259396433773804,
+          "mse_empirical": 0.013834308262965892,
+          "mse_empirical_from_decomposition": 0.01383430826296589,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.04352362439661857,
+          "mean_sampling_stderr": 0.20862183694829803,
+          "mse_model_bias_plus_mean_sampling_var": 0.04709853622581066
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.11977710507324657,
+          "estimate_std": 0.1926768581208695,
+          "bias_empirical": 0.016992011191294343,
+          "var_empirical": 0.03712437165532967,
+          "mse_empirical": 0.03741310009965475,
+          "mse_empirical_from_decomposition": 0.03741310009965474,
+          "mse_decomposition_gap": 6.938893903907228e-18,
+          "mean_sampling_variance": 0.07332022741433857,
+          "mean_sampling_stderr": 0.2707404126784605,
+          "mse_model_bias_plus_mean_sampling_var": 0.07360895585866364
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.023578791836688855,
+        "delta_model_based_mse": -0.026510419632852986
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 1,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.05627230428694033,
+          "estimate_std": 0.08622986339231549,
+          "bias_empirical": 0.08049681197760059,
+          "var_empirical": 0.007435589340657391,
+          "mse_empirical": 0.013915326079214573,
+          "mse_empirical_from_decomposition": 0.013915326079214571,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.021632756557592853,
+          "mean_sampling_stderr": 0.1470803985519699,
+          "mse_model_bias_plus_mean_sampling_var": 0.028112493296150034
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.1367691162645409,
+          "estimate_mean": -0.20448834937990865,
+          "estimate_std": 0.20085148295404276,
+          "bias_empirical": -0.06771923311536773,
+          "var_empirical": 0.04034131820483813,
+          "mse_empirical": 0.04492721273857165,
+          "mse_empirical_from_decomposition": 0.04492721273857164,
+          "mse_decomposition_gap": 6.938893903907228e-18,
+          "mean_sampling_variance": 0.03855198745150021,
+          "mean_sampling_stderr": 0.19632056793282687,
+          "mse_model_bias_plus_mean_sampling_var": 0.043137881985233724
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.03101188665935708,
+        "delta_model_based_mse": -0.01502538868908369
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 2,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": 0.022985891595650527,
+          "estimate_std": 0.06178401277663224,
+          "bias_empirical": 0.02123103591623014,
+          "var_empirical": 0.0038172642347830553,
+          "mse_empirical": 0.00426802112085931,
+          "mse_empirical_from_decomposition": 0.00426802112085931,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.011141943097497458,
+          "mean_sampling_stderr": 0.10555532109388192,
+          "mse_model_bias_plus_mean_sampling_var": 0.011592699983573712
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": 0.2827744446179818,
+          "estimate_std": 0.2966168829681592,
+          "bias_empirical": 0.2810195889385614,
+          "var_empirical": 0.08798157526174664,
+          "mse_empirical": 0.1669535846289447,
+          "mse_empirical_from_decomposition": 0.16695358462894466,
+          "mse_decomposition_gap": 2.7755575615628914e-17,
+          "mean_sampling_variance": 0.024554022612868424,
+          "mean_sampling_stderr": 0.1566864129427903,
+          "mse_model_bias_plus_mean_sampling_var": 0.10352603198006644
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.16268556350808538,
+        "delta_model_based_mse": -0.09193333199649273
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 2,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": 0.1320440388236997,
+          "estimate_std": 0.1954825255147459,
+          "bias_empirical": 0.1302891831442793,
+          "var_empirical": 0.03821341778162328,
+          "mse_empirical": 0.055188689026026826,
+          "mse_empirical_from_decomposition": 0.05518868902602683,
+          "mse_decomposition_gap": -6.938893903907228e-18,
+          "mean_sampling_variance": 0.08885654092910308,
+          "mean_sampling_stderr": 0.29808648108158914,
+          "mse_model_bias_plus_mean_sampling_var": 0.10583181217350664
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": 0.03364684513694412,
+          "estimate_std": 0.3319420883401781,
+          "bias_empirical": 0.03189198945752373,
+          "var_empirical": 0.11018555001163859,
+          "mse_empirical": 0.1112026490031974,
+          "mse_empirical_from_decomposition": 0.11120264900319739,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.1966091039436878,
+          "mean_sampling_stderr": 0.44320703809338685,
+          "mse_model_bias_plus_mean_sampling_var": 0.1976262029352466
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.056013959977170576,
+        "delta_model_based_mse": -0.09179439076173997
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 2,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": 0.17946628200504858,
+          "estimate_std": 0.27046882805596634,
+          "bias_empirical": 0.1777114263256282,
+          "var_empirical": 0.07315338694996788,
+          "mse_empirical": 0.10473473799665707,
+          "mse_empirical_from_decomposition": 0.10473473799665706,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.044252737302962614,
+          "mean_sampling_stderr": 0.21036137521762616,
+          "mse_model_bias_plus_mean_sampling_var": 0.0758340883496518
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": -0.10941298978833407,
+          "estimate_std": 0.26900052439450095,
+          "bias_empirical": -0.11116784546775446,
+          "var_empirical": 0.07236128212451651,
+          "mse_empirical": 0.08471957199045904,
+          "mse_empirical_from_decomposition": 0.08471957199045904,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0975511284375424,
+          "mean_sampling_stderr": 0.3123034447387789,
+          "mse_model_bias_plus_mean_sampling_var": 0.10990941830348494
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.02001516600619803,
+        "delta_model_based_mse": -0.03407532995383314
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 2,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": -0.024083660839318784,
+          "estimate_std": 0.08637160704946935,
+          "bias_empirical": -0.025838516518739172,
+          "var_empirical": 0.007460054504307943,
+          "mse_empirical": 0.0081276834401971,
+          "mse_empirical_from_decomposition": 0.008127683440197101,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.022232443910280782,
+          "mean_sampling_stderr": 0.14910477104099842,
+          "mse_model_bias_plus_mean_sampling_var": 0.02290007284616994
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0017548556794203876,
+          "estimate_mean": 0.17171433792446697,
+          "estimate_std": 0.3246842955397247,
+          "bias_empirical": 0.1699594822450466,
+          "var_empirical": 0.10541989177012731,
+          "mse_empirical": 0.13430611737513162,
+          "mse_empirical_from_decomposition": 0.13430611737513162,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0501954643740843,
+          "mean_sampling_stderr": 0.22401700821796297,
+          "mse_model_bias_plus_mean_sampling_var": 0.0790816899790886
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.12617843393493453,
+        "delta_model_based_mse": -0.05618161713291866
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 3,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": 0.15784265282224472,
+          "estimate_std": 0.07888493257161622,
+          "bias_empirical": 0.04557686390919222,
+          "var_empirical": 0.006222832586828438,
+          "mse_empirical": 0.008300083110625465,
+          "mse_empirical_from_decomposition": 0.008300083110625465,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.011231843153669901,
+          "mean_sampling_stderr": 0.10598031804037598,
+          "mse_model_bias_plus_mean_sampling_var": 0.013309093677466929
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": -0.08677965299861516,
+          "estimate_std": 0.43382645250945834,
+          "bias_empirical": -0.19904544191166768,
+          "var_empirical": 0.1882053908969413,
+          "mse_empirical": 0.22782447884275228,
+          "mse_empirical_from_decomposition": 0.22782447884275236,
+          "mse_decomposition_gap": -8.326672684688674e-17,
+          "mean_sampling_variance": 0.02267612527081396,
+          "mean_sampling_stderr": 0.15057576613332652,
+          "mse_model_bias_plus_mean_sampling_var": 0.06229521321662503
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.21952439573212681,
+        "delta_model_based_mse": -0.0489861195391581
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 3,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": -0.012241054613935978,
+          "estimate_std": 0.15362819109108752,
+          "bias_empirical": -0.12450684352698847,
+          "var_empirical": 0.023601621097919703,
+          "mse_empirical": 0.0391035751829737,
+          "mse_empirical_from_decomposition": 0.03910357518297369,
+          "mse_decomposition_gap": 6.938893903907228e-18,
+          "mean_sampling_variance": 0.08951409177168007,
+          "mean_sampling_stderr": 0.2991881109383793,
+          "mse_model_bias_plus_mean_sampling_var": 0.10501604585673406
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": -0.29668013116330366,
+          "estimate_std": 0.6288304772863805,
+          "bias_empirical": -0.40894592007635616,
+          "var_empirical": 0.3954277691642171,
+          "mse_empirical": 0.5626645347113146,
+          "mse_empirical_from_decomposition": 0.5626645347113146,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.1817553703372057,
+          "mean_sampling_stderr": 0.4257700355301892,
+          "mse_model_bias_plus_mean_sampling_var": 0.3489921358843032
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.5235609595283409,
+        "delta_model_based_mse": -0.24397609002756915
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 3,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": -0.03256401009736781,
+          "estimate_std": 0.13995447597075272,
+          "bias_empirical": -0.1448297990104203,
+          "var_empirical": 0.019587255344248003,
+          "mse_empirical": 0.04056292602564674,
+          "mse_empirical_from_decomposition": 0.04056292602564675,
+          "mse_decomposition_gap": -6.938893903907228e-18,
+          "mean_sampling_variance": 0.044843791102660006,
+          "mean_sampling_stderr": 0.21176260848805262,
+          "mse_model_bias_plus_mean_sampling_var": 0.06581946178405876
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": 0.17055275432464892,
+          "estimate_std": 0.3473008133167147,
+          "bias_empirical": 0.05828696541159642,
+          "var_empirical": 0.12061785493045152,
+          "mse_empirical": 0.12401522526734414,
+          "mse_empirical_from_decomposition": 0.12401522526734415,
+          "mse_decomposition_gap": -1.3877787807814457e-17,
+          "mean_sampling_variance": 0.0896536775285987,
+          "mean_sampling_stderr": 0.29934153025898,
+          "mse_model_bias_plus_mean_sampling_var": 0.09305104786549133
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.08345229924169739,
+        "delta_model_based_mse": -0.02723158608143257
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 3,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": 0.1410615711252654,
+          "estimate_std": 0.1455033579279857,
+          "bias_empirical": 0.028795782212212906,
+          "var_empirical": 0.021171227168319515,
+          "mse_empirical": 0.022000424241532715,
+          "mse_empirical_from_decomposition": 0.02200042424153271,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.022386351489861376,
+          "mean_sampling_stderr": 0.14962050567511856,
+          "mse_model_bias_plus_mean_sampling_var": 0.023215548563074572
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1122657889130525,
+          "estimate_mean": -0.1509472409605228,
+          "estimate_std": 0.5386901940635079,
+          "bias_empirical": -0.2632130298735753,
+          "var_empirical": 0.29018712518017986,
+          "mse_empirical": 0.3594682242754074,
+          "mse_empirical_from_decomposition": 0.3594682242754075,
+          "mse_decomposition_gap": -5.551115123125783e-17,
+          "mean_sampling_variance": 0.04582638525356656,
+          "mean_sampling_stderr": 0.21404104018600068,
+          "mse_model_bias_plus_mean_sampling_var": 0.1151074843487942
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.3374678000338747,
+        "delta_model_based_mse": -0.09189193578571962
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 4,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.11966038749038245,
+          "estimate_std": 0.14822056159518124,
+          "bias_empirical": 0.001988459843412879,
+          "var_empirical": 0.021969334879590914,
+          "mse_empirical": 0.021973288852139783,
+          "mse_empirical_from_decomposition": 0.02197328885213978,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.01126313425788755,
+          "mean_sampling_stderr": 0.10612787448585366,
+          "mse_model_bias_plus_mean_sampling_var": 0.011267088230436414
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.009399693187390834,
+          "estimate_std": 0.17129495405014122,
+          "bias_empirical": -0.10827223445957873,
+          "var_empirical": 0.029341961283039994,
+          "mse_empirical": 0.04106483803790998,
+          "mse_empirical_from_decomposition": 0.04106483803790998,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.024149368434366388,
+          "mean_sampling_stderr": 0.15538050456370925,
+          "mse_model_bias_plus_mean_sampling_var": 0.035872245189236374
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.019091549185770197,
+        "delta_model_based_mse": -0.02460515695879996
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 4,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.08815007967550317,
+          "estimate_std": 0.30657439697993366,
+          "bias_empirical": -0.029521847971466397,
+          "var_empirical": 0.09398786088360996,
+          "mse_empirical": 0.09485940039126033,
+          "mse_empirical_from_decomposition": 0.09485940039126033,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.09016182367675417,
+          "mean_sampling_stderr": 0.30026433850338263,
+          "mse_model_bias_plus_mean_sampling_var": 0.09103336318440454
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.14336520573442266,
+          "estimate_std": 0.20633546896577598,
+          "bias_empirical": 0.025693278087453086,
+          "var_empirical": 0.0425743257533267,
+          "mse_empirical": 0.0432344702922059,
+          "mse_empirical_from_decomposition": 0.0432344702922059,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.1900394912083796,
+          "mean_sampling_stderr": 0.43589839609448783,
+          "mse_model_bias_plus_mean_sampling_var": 0.1906996357472588
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.051624930099054424,
+        "delta_model_based_mse": -0.09966627256285425
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 4,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.03767760548142764,
+          "estimate_std": 0.26276550289116374,
+          "bias_empirical": -0.07999432216554193,
+          "var_empirical": 0.06904570950964618,
+          "mse_empirical": 0.07544480108837069,
+          "mse_empirical_from_decomposition": 0.07544480108837069,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.04484464184330639,
+          "mean_sampling_stderr": 0.21176462696887582,
+          "mse_model_bias_plus_mean_sampling_var": 0.0512437334220309
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.1719131852827196,
+          "estimate_std": 0.5040021375923838,
+          "bias_empirical": 0.05424125763575002,
+          "var_empirical": 0.2540181546976921,
+          "mse_empirical": 0.2569602687275999,
+          "mse_empirical_from_decomposition": 0.2569602687275999,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.09478231059138041,
+          "mean_sampling_stderr": 0.3077693352586241,
+          "mse_model_bias_plus_mean_sampling_var": 0.09772442462128822
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.1815154676392292,
+        "delta_model_based_mse": -0.04648069119925732
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 4,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.06124136061796972,
+          "estimate_std": 0.14440355543364936,
+          "bias_empirical": -0.05643056702899985,
+          "var_empirical": 0.02085238682187904,
+          "mse_empirical": 0.024036795717093492,
+          "mse_empirical_from_decomposition": 0.024036795717093485,
+          "mse_decomposition_gap": 6.938893903907228e-18,
+          "mean_sampling_variance": 0.022507155652672573,
+          "mean_sampling_stderr": 0.15002376238664086,
+          "mse_model_bias_plus_mean_sampling_var": 0.025691564547887017
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.11767192764696957,
+          "estimate_mean": 0.10022504207978926,
+          "estimate_std": 0.24538270355009287,
+          "bias_empirical": -0.017446885567180312,
+          "var_empirical": 0.060212671201552756,
+          "mse_empirical": 0.06051706501754704,
+          "mse_empirical_from_decomposition": 0.06051706501754704,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0483392956031293,
+          "mean_sampling_stderr": 0.21984620239565764,
+          "mse_model_bias_plus_mean_sampling_var": 0.04864368941912359
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.03648026930045355,
+        "delta_model_based_mse": -0.02295212487123657
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 5,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.13985438087051064,
+          "estimate_std": 0.10659783050054761,
+          "bias_empirical": 0.00130303776951754,
+          "var_empirical": 0.011363097467423477,
+          "mse_empirical": 0.011364795374852266,
+          "mse_empirical_from_decomposition": 0.011364795374852266,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.011282176735461715,
+          "mean_sampling_stderr": 0.10621751438619663,
+          "mse_model_bias_plus_mean_sampling_var": 0.011283874642890504
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.17337870039648376,
+          "estimate_std": 0.19960952123000378,
+          "bias_empirical": 0.03482735729549066,
+          "var_empirical": 0.03984396096567133,
+          "mse_empirical": 0.041056905781859096,
+          "mse_empirical_from_decomposition": 0.041056905781859096,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.024730100919747377,
+          "mean_sampling_stderr": 0.15725521749295154,
+          "mse_model_bias_plus_mean_sampling_var": 0.025943045735935144
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.029692110407006832,
+        "delta_model_based_mse": -0.01465917109304464
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 5,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.18870056497175142,
+          "estimate_std": 0.2593879445175276,
+          "bias_empirical": 0.05014922187075832,
+          "var_empirical": 0.06728210576102799,
+          "mse_empirical": 0.06979705021527054,
+          "mse_empirical_from_decomposition": 0.06979705021527052,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.09004813571887425,
+          "mean_sampling_stderr": 0.30007830037657235,
+          "mse_model_bias_plus_mean_sampling_var": 0.09256308017311679
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.07331159221019658,
+          "estimate_std": 0.21002214198610622,
+          "bias_empirical": -0.06523975089079652,
+          "var_empirical": 0.04410930012443216,
+          "mse_empirical": 0.04836552522072535,
+          "mse_empirical_from_decomposition": 0.04836552522072535,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.20325560600730497,
+          "mean_sampling_stderr": 0.4507672856696502,
+          "mse_model_bias_plus_mean_sampling_var": 0.20751183110359817
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.02143152499454519,
+        "delta_model_based_mse": -0.11494875093048137
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 5,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.0003389830508472039,
+          "estimate_std": 0.2300889954992836,
+          "bias_empirical": -0.1382123600501459,
+          "var_empirical": 0.05294094584986935,
+          "mse_empirical": 0.07204360232050051,
+          "mse_empirical_from_decomposition": 0.07204360232050051,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.04524078725624724,
+          "mean_sampling_stderr": 0.21269860972037705,
+          "mse_model_bias_plus_mean_sampling_var": 0.0643434437268784
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.20586685535938457,
+          "estimate_std": 0.10194631748715667,
+          "bias_empirical": 0.06731551225839147,
+          "var_empirical": 0.010393051649192147,
+          "mse_empirical": 0.0149244298398018,
+          "mse_empirical_from_decomposition": 0.014924429839801799,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.10095054656167343,
+          "mean_sampling_stderr": 0.3176458369040487,
+          "mse_model_bias_plus_mean_sampling_var": 0.10548192475228309
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.05711917248069871,
+        "delta_model_based_mse": -0.04113848102540468
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 5,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.10639562723042872,
+          "estimate_std": 0.06612569266845138,
+          "bias_empirical": -0.03215571587056437,
+          "var_empirical": 0.004372607230882484,
+          "mse_empirical": 0.0054065972940309515,
+          "mse_empirical_from_decomposition": 0.00540659729403095,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.022525668603730818,
+          "mean_sampling_stderr": 0.15008502484267802,
+          "mse_model_bias_plus_mean_sampling_var": 0.02355965866687928
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1385513431009931,
+          "estimate_mean": 0.25172419555513686,
+          "estimate_std": 0.10864913004446149,
+          "bias_empirical": 0.11317285245414377,
+          "var_empirical": 0.011804633459418304,
+          "mse_empirical": 0.0246127279920257,
+          "mse_empirical_from_decomposition": 0.0246127279920257,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.050459231780677745,
+          "mean_sampling_stderr": 0.2246157752303205,
+          "mse_model_bias_plus_mean_sampling_var": 0.06326732631328513
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.019206130697994747,
+        "delta_model_based_mse": -0.03970766764640585
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 6,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": 0.23125463943810037,
+          "estimate_std": 0.06274570224592424,
+          "bias_empirical": 0.08224336097346924,
+          "var_empirical": 0.003937023150334182,
+          "mse_empirical": 0.010700993574546543,
+          "mse_empirical_from_decomposition": 0.010700993574546545,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.011268525097910122,
+          "mean_sampling_stderr": 0.10615326074789402,
+          "mse_model_bias_plus_mean_sampling_var": 0.018032495522122487
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": 0.22876825481981428,
+          "estimate_std": 0.13276297142481172,
+          "bias_empirical": 0.07975697635518314,
+          "var_empirical": 0.017626006581545374,
+          "mse_empirical": 0.023987181858866616,
+          "mse_empirical_from_decomposition": 0.023987181858866616,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.02412829766083395,
+          "mean_sampling_stderr": 0.1553300179871919,
+          "mse_model_bias_plus_mean_sampling_var": 0.030489472938155193
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.013286188284320074,
+        "delta_model_based_mse": -0.012456977416032706
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 6,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": 0.3204403882369983,
+          "estimate_std": 0.32009465195887965,
+          "bias_empirical": 0.17142910977236714,
+          "var_empirical": 0.1024605862126763,
+          "mse_empirical": 0.13184852589002258,
+          "mse_empirical_from_decomposition": 0.1318485258900226,
+          "mse_decomposition_gap": -2.7755575615628914e-17,
+          "mean_sampling_variance": 0.0902710466655297,
+          "mean_sampling_stderr": 0.30044293876893446,
+          "mse_model_bias_plus_mean_sampling_var": 0.119658986342876
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": -0.0794945850422145,
+          "estimate_std": 0.354134163664948,
+          "bias_empirical": -0.22850586350684565,
+          "var_empirical": 0.12541100587467216,
+          "mse_empirical": 0.17762593553168132,
+          "mse_empirical_from_decomposition": 0.17762593553168132,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.1943640948869486,
+          "mean_sampling_stderr": 0.44076677649883045,
+          "mse_model_bias_plus_mean_sampling_var": 0.2465790245439578
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.045777409641658745,
+        "delta_model_based_mse": -0.1269200382010818
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 6,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": 0.36259646592138445,
+          "estimate_std": 0.13390396513961517,
+          "bias_empirical": 0.2135851874567533,
+          "var_empirical": 0.017930271880111273,
+          "mse_empirical": 0.06354890418104772,
+          "mse_empirical_from_decomposition": 0.06354890418104772,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.045041918612260305,
+          "mean_sampling_stderr": 0.21222912965784366,
+          "mse_model_bias_plus_mean_sampling_var": 0.09066055091319676
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": 0.09322542611249997,
+          "estimate_std": 0.25206248924033003,
+          "bias_empirical": -0.05578585235213117,
+          "var_empirical": 0.0635354984820315,
+          "mse_empirical": 0.06664755980468529,
+          "mse_empirical_from_decomposition": 0.06664755980468527,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.09542940346677532,
+          "mean_sampling_stderr": 0.3089049549248831,
+          "mse_model_bias_plus_mean_sampling_var": 0.0985414647894291
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.003098655623637564,
+        "delta_model_based_mse": -0.00788091387623234
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 11,
+        "num_steps": 6,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": 0.20923250666305276,
+          "estimate_std": 0.18288827778670205,
+          "bias_empirical": 0.06022122819842163,
+          "var_empirical": 0.03344812215178589,
+          "mse_empirical": 0.037074718477512265,
+          "mse_empirical_from_decomposition": 0.037074718477512265,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.022479716858314854,
+          "mean_sampling_stderr": 0.14993164484838756,
+          "mse_model_bias_plus_mean_sampling_var": 0.026106313184041226
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14901127846463114,
+          "estimate_mean": 0.09759171593329244,
+          "estimate_std": 0.08470848790539369,
+          "bias_empirical": -0.0514195625313387,
+          "var_empirical": 0.007175527923218229,
+          "mse_empirical": 0.00981949933413248,
+          "mse_empirical_from_decomposition": 0.00981949933413248,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.04840650530705574,
+          "mean_sampling_stderr": 0.21997240439914356,
+          "mse_model_bias_plus_mean_sampling_var": 0.051050476717969986
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.027255219143379784,
+        "delta_model_based_mse": -0.02494416353392876
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 1,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.13381250000000003,
+          "estimate_std": 0.0278461173236055,
+          "bias_empirical": -0.010262608907760568,
+          "var_empirical": 0.0007754062500000023,
+          "mse_empirical": 0.0008807273915936487,
+          "mse_empirical_from_decomposition": 0.0008807273915936489,
+          "mse_decomposition_gap": -2.168404344971009e-19,
+          "mean_sampling_variance": 0.0010117171198519067,
+          "mean_sampling_stderr": 0.03180735483577212,
+          "mse_model_bias_plus_mean_sampling_var": 0.0011170382614455532
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.19260270201702037,
+          "estimate_std": 0.02674740320965812,
+          "bias_empirical": 0.048527593109259776,
+          "var_empirical": 0.0007154235784600295,
+          "mse_empirical": 0.003070350871437906,
+          "mse_empirical_from_decomposition": 0.0030703508714379065,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.0021866174061943625,
+          "mean_sampling_stderr": 0.046760970386496827,
+          "mse_model_bias_plus_mean_sampling_var": 0.004541544699172239
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0021896234798442576,
+        "delta_model_based_mse": -0.0034245064377266855
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 1,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.06350000000000001,
+          "estimate_std": 0.10388214476030042,
+          "bias_empirical": -0.08057510890776058,
+          "var_empirical": 0.010791500000000011,
+          "mse_empirical": 0.017283848175497492,
+          "mse_empirical_from_decomposition": 0.01728384817549749,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.008149508145363409,
+          "mean_sampling_stderr": 0.09027268594924696,
+          "mse_model_bias_plus_mean_sampling_var": 0.014641856320860888
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.030872549343155236,
+          "estimate_std": 0.13705149639725556,
+          "bias_empirical": -0.11320255956460536,
+          "var_empirical": 0.01878311266472695,
+          "mse_empirical": 0.03159793215670498,
+          "mse_empirical_from_decomposition": 0.03159793215670498,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.01780603619383197,
+          "mean_sampling_stderr": 0.13343768940878775,
+          "mse_model_bias_plus_mean_sampling_var": 0.030620855685809995
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.014314083981207485,
+        "delta_model_based_mse": -0.015978999364949106
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 1,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.11900000000000006,
+          "estimate_std": 0.026720778431774797,
+          "bias_empirical": -0.025075108907760532,
+          "var_empirical": 0.0007140000000000012,
+          "mse_empirical": 0.0013427610867360528,
+          "mse_empirical_from_decomposition": 0.0013427610867360528,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.004048243116395494,
+          "mean_sampling_stderr": 0.06362545121653103,
+          "mse_model_bias_plus_mean_sampling_var": 0.004677004203131546
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.1833263433308394,
+          "estimate_std": 0.07141493490138552,
+          "bias_empirical": 0.03925123442307879,
+          "var_empirical": 0.005100092926969132,
+          "mse_empirical": 0.006640752330704617,
+          "mse_empirical_from_decomposition": 0.006640752330704618,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.008782578196629743,
+          "mean_sampling_stderr": 0.09371440841305899,
+          "mse_model_bias_plus_mean_sampling_var": 0.010323237600365229
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.005297991243968564,
+        "delta_model_based_mse": -0.005646233397233683
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 1,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.177625,
+          "estimate_std": 0.046047529792595784,
+          "bias_empirical": 0.03354989109223941,
+          "var_empirical": 0.0021203749999999964,
+          "mse_empirical": 0.0032459701923011216,
+          "mse_empirical_from_decomposition": 0.0032459701923011216,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0020137509283145714,
+          "mean_sampling_stderr": 0.044874704595453,
+          "mse_model_bias_plus_mean_sampling_var": 0.0031393461206156966
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1440751089077606,
+          "estimate_mean": 0.17533820891930185,
+          "estimate_std": 0.05897938314631553,
+          "bias_empirical": 0.031263100011541256,
+          "var_empirical": 0.003478567636319889,
+          "mse_empirical": 0.004455949058651518,
+          "mse_empirical_from_decomposition": 0.00445594905865152,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.004382313280152887,
+          "mean_sampling_stderr": 0.06619598578723858,
+          "mse_model_bias_plus_mean_sampling_var": 0.0053596947024845175
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0012099788663503968,
+        "delta_model_based_mse": -0.002220348581868821
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 2,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": 0.06043750000000004,
+          "estimate_std": 0.2071430099291309,
+          "bias_empirical": -0.08105707750382748,
+          "var_empirical": 0.04290822656250002,
+          "mse_empirical": 0.049478476375961505,
+          "mse_empirical_from_decomposition": 0.04947847637596151,
+          "mse_decomposition_gap": -6.938893903907228e-18,
+          "mean_sampling_variance": 0.0010146248766704437,
+          "mean_sampling_stderr": 0.03184905841579454,
+          "mse_model_bias_plus_mean_sampling_var": 0.00758487469013194
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": 0.12987467113872736,
+          "estimate_std": 0.05476182140754987,
+          "bias_empirical": -0.011619906365100158,
+          "var_empirical": 0.0029988570838723875,
+          "mse_empirical": 0.0031338793078060823,
+          "mse_empirical_from_decomposition": 0.0031338793078060827,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.0027336802056414458,
+          "mean_sampling_stderr": 0.05228446604503839,
+          "mse_model_bias_plus_mean_sampling_var": 0.002868702429575141
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.04634459706815542,
+        "delta_model_based_mse": 0.004716172260556799
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 2,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": -0.02199999999999997,
+          "estimate_std": 0.20202351348296066,
+          "bias_empirical": -0.16349457750382748,
+          "var_empirical": 0.04081349999999999,
+          "mse_empirical": 0.06754397687315505,
+          "mse_empirical_from_decomposition": 0.06754397687315504,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.008090187969924811,
+          "mean_sampling_stderr": 0.08992255597030598,
+          "mse_model_bias_plus_mean_sampling_var": 0.034820664843079864
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": 0.13158891413720009,
+          "estimate_std": 0.13358342491693612,
+          "bias_empirical": -0.009905663366627432,
+          "var_empirical": 0.01784453141253871,
+          "mse_empirical": 0.01794265357927165,
+          "mse_empirical_from_decomposition": 0.017942653579271654,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.02178507894826107,
+          "mean_sampling_stderr": 0.14759535158923875,
+          "mse_model_bias_plus_mean_sampling_var": 0.021883201114994016
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.049601323293883406,
+        "delta_model_based_mse": 0.012937463728085848
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 2,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": 0.017250000000000022,
+          "estimate_std": 0.21276953494332781,
+          "bias_empirical": -0.1242445775038275,
+          "var_empirical": 0.045270874999999995,
+          "mse_empirical": 0.06070759003910459,
+          "mse_empirical_from_decomposition": 0.06070759003910459,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.004084689064455569,
+          "mean_sampling_stderr": 0.06390446226531767,
+          "mse_model_bias_plus_mean_sampling_var": 0.01952140410356017
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": 0.16823917881309644,
+          "estimate_std": 0.15847917999032388,
+          "bias_empirical": 0.026744601309268923,
+          "var_empirical": 0.025115650490405473,
+          "mse_empirical": 0.025830924189597225,
+          "mse_empirical_from_decomposition": 0.02583092418959722,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.010765002542107235,
+          "mean_sampling_stderr": 0.10374895493484573,
+          "mse_model_bias_plus_mean_sampling_var": 0.011480276241298984
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.03487666584950737,
+        "delta_model_based_mse": 0.008041127862261186
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 2,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": 0.07112499999999998,
+          "estimate_std": 0.20638192750335482,
+          "bias_empirical": -0.07036957750382754,
+          "var_empirical": 0.042593500000000006,
+          "mse_empirical": 0.04754537743806721,
+          "mse_empirical_from_decomposition": 0.04754537743806719,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.0020258732508599124,
+          "mean_sampling_stderr": 0.045007445025999133,
+          "mse_model_bias_plus_mean_sampling_var": 0.0069777506889271024
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14149457750382752,
+          "estimate_mean": 0.11465711999716843,
+          "estimate_std": 0.05220710269814922,
+          "bias_empirical": -0.026837457506659085,
+          "var_empirical": 0.002725581572135099,
+          "mse_empirical": 0.0034458306975568304,
+          "mse_empirical_from_decomposition": 0.0034458306975568313,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.005448848518015105,
+          "mean_sampling_stderr": 0.07381388709552443,
+          "mse_model_bias_plus_mean_sampling_var": 0.006169097643436837
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.04409954674051038,
+        "delta_model_based_mse": 0.0008086530454902655
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 3,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.17031249999999998,
+          "estimate_std": 0.02716989372448848,
+          "bias_empirical": 0.0005448338602218883,
+          "var_empirical": 0.0007382031249999985,
+          "mse_empirical": 0.0007384999689352429,
+          "mse_empirical_from_decomposition": 0.0007384999689352428,
+          "mse_decomposition_gap": 1.0842021724855044e-19,
+          "mean_sampling_variance": 0.0010439531213367458,
+          "mean_sampling_stderr": 0.03231016605297284,
+          "mse_model_bias_plus_mean_sampling_var": 0.00104424996527199
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.19518498137597276,
+          "estimate_std": 0.060222387330790585,
+          "bias_empirical": 0.02541731523619467,
+          "var_empirical": 0.003626735935819766,
+          "mse_empirical": 0.004272775849635861,
+          "mse_empirical_from_decomposition": 0.004272775849635859,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.0026610505528344352,
+          "mean_sampling_stderr": 0.05158494787502551,
+          "mse_model_bias_plus_mean_sampling_var": 0.003307090466650529
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0035342758807006183,
+        "delta_model_based_mse": -0.002262840501378539
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 3,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.28250000000000003,
+          "estimate_std": 0.09801785551622727,
+          "bias_empirical": 0.11273233386022194,
+          "var_empirical": 0.009607500000000005,
+          "mse_empirical": 0.022316079097572543,
+          "mse_empirical_from_decomposition": 0.022316079097572546,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.008282296365914786,
+          "mean_sampling_stderr": 0.09100656889624435,
+          "mse_model_bias_plus_mean_sampling_var": 0.020990875463487327
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.11327644093851862,
+          "estimate_std": 0.1077685778169704,
+          "bias_empirical": -0.05649122520125947,
+          "var_empirical": 0.011614066364692404,
+          "mse_empirical": 0.014805324889431816,
+          "mse_empirical_from_decomposition": 0.014805324889431818,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.021847583739714183,
+          "mean_sampling_stderr": 0.1477827665433358,
+          "mse_model_bias_plus_mean_sampling_var": 0.025038842264453597
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.007510754208140727,
+        "delta_model_based_mse": -0.004047966800966269
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 3,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.13675000000000004,
+          "estimate_std": 0.04450842616853581,
+          "bias_empirical": -0.03301766613977805,
+          "var_empirical": 0.001981000000000003,
+          "mse_empirical": 0.0030711662773178494,
+          "mse_empirical_from_decomposition": 0.0030711662773178494,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.004174319070713392,
+          "mean_sampling_stderr": 0.0646086284545595,
+          "mse_model_bias_plus_mean_sampling_var": 0.005264485348031238
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.15606152361366082,
+          "estimate_std": 0.019480053766786493,
+          "bias_empirical": -0.013706142526117265,
+          "var_empirical": 0.00037947249475689263,
+          "mse_empirical": 0.0005673308377031331,
+          "mse_empirical_from_decomposition": 0.0005673308377031328,
+          "mse_decomposition_gap": 3.2526065174565133e-19,
+          "mean_sampling_variance": 0.010965601625103566,
+          "mean_sampling_stderr": 0.10471341682987617,
+          "mse_model_bias_plus_mean_sampling_var": 0.011153459968049806
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.0025038354396147164,
+        "delta_model_based_mse": -0.0058889746200185685
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 3,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.16025,
+          "estimate_std": 0.049778572197281865,
+          "bias_empirical": -0.009517666139778086,
+          "var_empirical": 0.002477906250000003,
+          "mse_empirical": 0.002568492218748281,
+          "mse_empirical_from_decomposition": 0.0025684922187482816,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.0020908149624765475,
+          "mean_sampling_stderr": 0.04572528203746307,
+          "mse_model_bias_plus_mean_sampling_var": 0.002181400931224826
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1697676661397781,
+          "estimate_mean": 0.2183872485884778,
+          "estimate_std": 0.039450391465951064,
+          "bias_empirical": 0.04861958244869971,
+          "var_empirical": 0.0015563333868167846,
+          "mse_empirical": 0.003920197184302692,
+          "mse_empirical_from_decomposition": 0.003920197184302693,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.005317523537849347,
+          "mean_sampling_stderr": 0.0729190105661397,
+          "mse_model_bias_plus_mean_sampling_var": 0.007681387335335256
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0013517049655544112,
+        "delta_model_based_mse": -0.005499986404110429
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 4,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.21512499999999998,
+          "estimate_std": 0.02616847459253211,
+          "bias_empirical": 0.004362024131796094,
+          "var_empirical": 0.0006847890624999987,
+          "mse_empirical": 0.00070381631702637,
+          "mse_empirical_from_decomposition": 0.0007038163170263701,
+          "mse_decomposition_gap": -1.0842021724855044e-19,
+          "mean_sampling_variance": 0.0010467852136409814,
+          "mean_sampling_stderr": 0.03235400644084427,
+          "mse_model_bias_plus_mean_sampling_var": 0.001065812468167353
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.23404266004659396,
+          "estimate_std": 0.05594550820012423,
+          "bias_empirical": 0.023279684178390075,
+          "var_empirical": 0.003129899887770167,
+          "mse_empirical": 0.0036718435832157528,
+          "mse_empirical_from_decomposition": 0.0036718435832157523,
+          "mse_decomposition_gap": 4.336808689942018e-19,
+          "mean_sampling_variance": 0.002674105501500039,
+          "mean_sampling_stderr": 0.0517110404369199,
+          "mse_model_bias_plus_mean_sampling_var": 0.003216049196945624
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.002968027266189383,
+        "delta_model_based_mse": -0.002150236728778271
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 4,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.21649999999999997,
+          "estimate_std": 0.11428691963650088,
+          "bias_empirical": 0.005737024131796081,
+          "var_empirical": 0.01306150000000001,
+          "mse_empirical": 0.013094413445888822,
+          "mse_empirical_from_decomposition": 0.013094413445888822,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.008389295112781954,
+          "mean_sampling_stderr": 0.09159263676371919,
+          "mse_model_bias_plus_mean_sampling_var": 0.008422208558670765
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.24077041648738404,
+          "estimate_std": 0.15344279622094145,
+          "bias_empirical": 0.030007440619180148,
+          "var_empirical": 0.023544691712101364,
+          "mse_empirical": 0.024445138204614983,
+          "mse_empirical_from_decomposition": 0.024445138204614986,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.02148270812064019,
+          "mean_sampling_stderr": 0.14655799351758336,
+          "mse_model_bias_plus_mean_sampling_var": 0.02238315461315381
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.011350724758726161,
+        "delta_model_based_mse": -0.013960946054483047
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 4,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.16025000000000003,
+          "estimate_std": 0.03361919094802849,
+          "bias_empirical": -0.05051297586820386,
+          "var_empirical": 0.0011302500000000006,
+          "mse_empirical": 0.0036818107310617456,
+          "mse_empirical_from_decomposition": 0.003681810731061746,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.00421087805068836,
+          "mean_sampling_stderr": 0.06489088447673769,
+          "mse_model_bias_plus_mean_sampling_var": 0.006762438781750106
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.19660328756286058,
+          "estimate_std": 0.11117617388769167,
+          "bias_empirical": -0.01415968830534331,
+          "var_empirical": 0.012360141640306256,
+          "mse_empirical": 0.012560638413210732,
+          "mse_empirical_from_decomposition": 0.012560638413210732,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.010744273183378603,
+          "mean_sampling_stderr": 0.10365335781509914,
+          "mse_model_bias_plus_mean_sampling_var": 0.010944769956283079
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.008878827682148985,
+        "delta_model_based_mse": -0.004182331174532973
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 4,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.17637500000000003,
+          "estimate_std": 0.03515012446635148,
+          "bias_empirical": -0.03438797586820386,
+          "var_empirical": 0.0012355312500000012,
+          "mse_empirical": 0.0024180641343121713,
+          "mse_empirical_from_decomposition": 0.0024180641343121718,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.002100536419246404,
+          "mean_sampling_stderr": 0.045831555333196765,
+          "mse_model_bias_plus_mean_sampling_var": 0.003283069303558575
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.2107629758682039,
+          "estimate_mean": 0.14147998261332823,
+          "estimate_std": 0.08702640077762072,
+          "bias_empirical": -0.06928299325487566,
+          "var_empirical": 0.007573594432307065,
+          "mse_empirical": 0.01237372758666221,
+          "mse_empirical_from_decomposition": 0.012373727586662211,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.0052941011248640955,
+          "mean_sampling_stderr": 0.07275936709460562,
+          "mse_model_bias_plus_mean_sampling_var": 0.010094234279219242
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.009955663452350038,
+        "delta_model_based_mse": -0.006811164975660667
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 5,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.2510625,
+          "estimate_std": 0.019179049442034357,
+          "bias_empirical": 0.00924675895449939,
+          "var_empirical": 0.00036783593749999837,
+          "mse_empirical": 0.00045333848866261256,
+          "mse_empirical_from_decomposition": 0.00045333848866261305,
+          "mse_decomposition_gap": -4.87890977618477e-19,
+          "mean_sampling_variance": 0.001033397344629181,
+          "mean_sampling_stderr": 0.032146437137714284,
+          "mse_model_bias_plus_mean_sampling_var": 0.0011188998957917956
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.2515403275754254,
+          "estimate_std": 0.007749296169649676,
+          "bias_empirical": 0.00972458652992475,
+          "var_empirical": 6.0051591124947146e-05,
+          "mse_empirical": 0.00015461917430294062,
+          "mse_empirical_from_decomposition": 0.00015461917430294105,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.0026963023644882254,
+          "mean_sampling_stderr": 0.05192486286993263,
+          "mse_model_bias_plus_mean_sampling_var": 0.0027908699476662194
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.00029871931435967194,
+        "delta_model_based_mse": -0.0016719700518744239
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 5,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.24699999999999994,
+          "estimate_std": 0.06703357367767286,
+          "bias_empirical": 0.00518425895449931,
+          "var_empirical": 0.004493499999999996,
+          "mse_empirical": 0.004520376540907303,
+          "mse_empirical_from_decomposition": 0.004520376540907302,
+          "mse_decomposition_gap": 8.673617379884035e-19,
+          "mean_sampling_variance": 0.00826781328320802,
+          "mean_sampling_stderr": 0.09092610647862372,
+          "mse_model_bias_plus_mean_sampling_var": 0.008294689824115327
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.23507922064382825,
+          "estimate_std": 0.15328392588143705,
+          "bias_empirical": -0.006736520401672386,
+          "var_empirical": 0.023495961933625888,
+          "mse_empirical": 0.023541342640748038,
+          "mse_empirical_from_decomposition": 0.023541342640748034,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.021667047482821923,
+          "mean_sampling_stderr": 0.14718026020178498,
+          "mse_model_bias_plus_mean_sampling_var": 0.02171242818994407
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.019020966099840733,
+        "delta_model_based_mse": -0.013417738365828743
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 5,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.2375,
+          "estimate_std": 0.06720770045165954,
+          "bias_empirical": -0.004315741045500643,
+          "var_empirical": 0.0045168749999999975,
+          "mse_empirical": 0.004535500620771817,
+          "mse_empirical_from_decomposition": 0.004535500620771816,
+          "mse_decomposition_gap": 8.673617379884035e-19,
+          "mean_sampling_variance": 0.004146817897371715,
+          "mean_sampling_stderr": 0.0643954847859248,
+          "mse_model_bias_plus_mean_sampling_var": 0.004165443518143534
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.248039305339644,
+          "estimate_std": 0.05871231203817381,
+          "bias_empirical": 0.006223564294143363,
+          "var_empirical": 0.003447135584867889,
+          "mse_empirical": 0.0034858683373912252,
+          "mse_empirical_from_decomposition": 0.0034858683373912252,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.010872558704557675,
+          "mean_sampling_stderr": 0.10426887439558064,
+          "mse_model_bias_plus_mean_sampling_var": 0.010911291457081012
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.001049632283380592,
+        "delta_model_based_mse": -0.006745847938937478
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 5,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.25487499999999996,
+          "estimate_std": 0.03237089742345738,
+          "bias_empirical": 0.013059258954499331,
+          "var_empirical": 0.0010478749999999998,
+          "mse_empirical": 0.001218419244440671,
+          "mse_empirical_from_decomposition": 0.0012184192444406707,
+          "mse_decomposition_gap": 2.168404344971009e-19,
+          "mean_sampling_variance": 0.0020705894797529707,
+          "mean_sampling_stderr": 0.04550360437536213,
+          "mse_model_bias_plus_mean_sampling_var": 0.002241133724193642
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24181574104550063,
+          "estimate_mean": 0.21635470924140282,
+          "estimate_std": 0.06895822353561562,
+          "bias_empirical": -0.02546103180409781,
+          "var_empirical": 0.004755236593187932,
+          "mse_empirical": 0.0054035007337172114,
+          "mse_empirical_from_decomposition": 0.005403500733717212,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.005385466250790177,
+          "mean_sampling_stderr": 0.07338491957280435,
+          "mse_model_bias_plus_mean_sampling_var": 0.006033730391319457
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0041850814892765405,
+        "delta_model_based_mse": -0.003792596667125815
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 6,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": 0.022187500000000006,
+          "estimate_std": 0.4643563673920064,
+          "bias_empirical": -0.22662296909507637,
+          "var_empirical": 0.21562683593750004,
+          "mse_empirical": 0.26698480605896796,
+          "mse_empirical_from_decomposition": 0.26698480605896796,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0009987939651551264,
+          "mean_sampling_stderr": 0.03159905028249331,
+          "mse_model_bias_plus_mean_sampling_var": 0.05235676408662307
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": 0.22469270813808953,
+          "estimate_std": 0.04199507375958383,
+          "bias_empirical": -0.02411776095698684,
+          "var_empirical": 0.001763586220072886,
+          "mse_empirical": 0.0023452526136512443,
+          "mse_empirical_from_decomposition": 0.0023452526136512448,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.002516862388159625,
+          "mean_sampling_stderr": 0.05016680867363829,
+          "mse_model_bias_plus_mean_sampling_var": 0.003098528781737984
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.2646395534453167,
+        "delta_model_based_mse": 0.04925823530488509
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 6,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": 0.010000000000000054,
+          "estimate_std": 0.40820338068173806,
+          "bias_empirical": -0.2388104690950763,
+          "var_empirical": 0.16662999999999997,
+          "mse_empirical": 0.22366044014941036,
+          "mse_empirical_from_decomposition": 0.22366044014941036,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0079993984962406,
+          "mean_sampling_stderr": 0.08943359980067307,
+          "mse_model_bias_plus_mean_sampling_var": 0.065029838645651
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": 0.27989610602654297,
+          "estimate_std": 0.07263289124561134,
+          "bias_empirical": 0.031085636931466598,
+          "var_empirical": 0.0052755368906968044,
+          "mse_empirical": 0.006241853714131765,
+          "mse_empirical_from_decomposition": 0.0062418537141317645,
+          "mse_decomposition_gap": 8.673617379884035e-19,
+          "mean_sampling_variance": 0.02046008502169075,
+          "mean_sampling_stderr": 0.14302933441466,
+          "mse_model_bias_plus_mean_sampling_var": 0.02142640184512571
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.2174185864352786,
+        "delta_model_based_mse": 0.04360343680052529
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 6,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": 0.007749999999999979,
+          "estimate_std": 0.437452425984815,
+          "bias_empirical": -0.2410604690950764,
+          "var_empirical": 0.19136462500000004,
+          "mse_empirical": 0.24947477476033836,
+          "mse_empirical_from_decomposition": 0.2494747747603383,
+          "mse_decomposition_gap": 5.551115123125783e-17,
+          "mean_sampling_variance": 0.003980159965581978,
+          "mean_sampling_stderr": 0.06308215217742977,
+          "mse_model_bias_plus_mean_sampling_var": 0.06209030972592026
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": 0.26824046922639044,
+          "estimate_std": 0.07479389816156294,
+          "bias_empirical": 0.019430000131314074,
+          "var_empirical": 0.005594127202202248,
+          "mse_empirical": 0.005971652107305114,
+          "mse_empirical_from_decomposition": 0.005971652107305113,
+          "mse_decomposition_gap": 8.673617379884035e-19,
+          "mean_sampling_variance": 0.009955940613827515,
+          "mean_sampling_stderr": 0.09977463320267799,
+          "mse_model_bias_plus_mean_sampling_var": 0.01033346551893038
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.24350312265303325,
+        "delta_model_based_mse": 0.05175684420698988
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 5,
+        "num_steps": 6,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": -0.0017499999999999905,
+          "estimate_std": 0.4634951118943974,
+          "bias_empirical": -0.25056046909507634,
+          "var_empirical": 0.21482771874999998,
+          "mse_empirical": 0.2776082674231447,
+          "mse_empirical_from_decomposition": 0.2776082674231447,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0019931687773608506,
+          "mean_sampling_stderr": 0.0446392363181296,
+          "mse_model_bias_plus_mean_sampling_var": 0.06477371745050556
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.24881046909507637,
+          "estimate_mean": 0.22809204048551168,
+          "estimate_std": 0.024338937075351022,
+          "bias_empirical": -0.020718428609564687,
+          "var_empirical": 0.0005923838579578966,
+          "mse_empirical": 0.0010216371420075246,
+          "mse_empirical_from_decomposition": 0.0010216371420075252,
+          "mse_decomposition_gap": -6.505213034913027e-19,
+          "mean_sampling_variance": 0.0049932644658767286,
+          "mean_sampling_stderr": 0.07066032587814346,
+          "mse_model_bias_plus_mean_sampling_var": 0.005422517749926357
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.27658663028113717,
+        "delta_model_based_mse": 0.0593511997005792
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 1,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": 0.08793570893677682,
+          "estimate_std": 0.03666491018009175,
+          "bias_empirical": 0.039020786185932424,
+          "var_empirical": 0.0013443156385141955,
+          "mse_empirical": 0.00286693739308245,
+          "mse_empirical_from_decomposition": 0.0028669373930824502,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.003116204106750775,
+          "mean_sampling_stderr": 0.05582291418844787,
+          "mse_model_bias_plus_mean_sampling_var": 0.004638825861319029
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": 0.10705452384470998,
+          "estimate_std": 0.06353412417680807,
+          "bias_empirical": 0.05813960109386558,
+          "var_empirical": 0.004036584934914067,
+          "mse_empirical": 0.007416798150267885,
+          "mse_empirical_from_decomposition": 0.007416798150267884,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.008387155585676556,
+          "mean_sampling_stderr": 0.09157622702436076,
+          "mse_model_bias_plus_mean_sampling_var": 0.011767368801030373
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.004549860757185435,
+        "delta_model_based_mse": -0.007128542939711343
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 1,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": 0.013537752999636419,
+          "estimate_std": 0.0842514180539349,
+          "bias_empirical": -0.035377169751207985,
+          "var_empirical": 0.007098301444098909,
+          "mse_empirical": 0.008349845583704694,
+          "mse_empirical_from_decomposition": 0.008349845583704694,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.02505402974203811,
+          "mean_sampling_stderr": 0.15828379184428626,
+          "mse_model_bias_plus_mean_sampling_var": 0.026305573881643896
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": -0.1526353815405618,
+          "estimate_std": 0.32313368303691126,
+          "bias_empirical": -0.2015503042914062,
+          "var_empirical": 0.10441537711299903,
+          "mse_empirical": 0.1450379022729575,
+          "mse_empirical_from_decomposition": 0.14503790227295746,
+          "mse_decomposition_gap": 2.7755575615628914e-17,
+          "mean_sampling_variance": 0.07037572014828694,
+          "mean_sampling_stderr": 0.2652074017408196,
+          "mse_model_bias_plus_mean_sampling_var": 0.11099824530824537
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.1366880566892528,
+        "delta_model_based_mse": -0.08469267142660147
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 1,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": 0.08974693794918524,
+          "estimate_std": 0.047849336971756355,
+          "bias_empirical": 0.04083201519834084,
+          "var_empirical": 0.0022895590486366898,
+          "mse_empirical": 0.003956812513794227,
+          "mse_empirical_from_decomposition": 0.003956812513794227,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.012473285954045317,
+          "mean_sampling_stderr": 0.11168267138371595,
+          "mse_model_bias_plus_mean_sampling_var": 0.014140539419202855
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": 0.20410851121875342,
+          "estimate_std": 0.179078926762556,
+          "bias_empirical": 0.15519358846790904,
+          "var_empirical": 0.032069262010428895,
+          "mse_empirical": 0.05615431191197559,
+          "mse_empirical_from_decomposition": 0.056154311911975605,
+          "mse_decomposition_gap": -1.3877787807814457e-17,
+          "mean_sampling_variance": 0.03308065925492279,
+          "mean_sampling_stderr": 0.18184070858547727,
+          "mse_model_bias_plus_mean_sampling_var": 0.0571657091564695
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.052197499398181364,
+        "delta_model_based_mse": -0.043025169737266646
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 1,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": 0.05924031455527516,
+          "estimate_std": 0.11046307843744928,
+          "bias_empirical": 0.010325391804430761,
+          "var_empirical": 0.012202091697878071,
+          "mse_empirical": 0.012308705413793074,
+          "mse_empirical_from_decomposition": 0.012308705413793078,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.006231385954679524,
+          "mean_sampling_stderr": 0.07893847346021926,
+          "mse_model_bias_plus_mean_sampling_var": 0.00633799967059453
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.0489149227508444,
+          "estimate_mean": 0.10532945716682345,
+          "estimate_std": 0.11514247382038283,
+          "bias_empirical": 0.056414534415979045,
+          "var_empirical": 0.013257789277477545,
+          "mse_empirical": 0.01644038897084923,
+          "mse_empirical_from_decomposition": 0.016440388970849228,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.017056848612790613,
+          "mean_sampling_stderr": 0.13056628546377738,
+          "mse_model_bias_plus_mean_sampling_var": 0.020239448306162297
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.004131683557056157,
+        "delta_model_based_mse": -0.013901448635567767
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 2,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": 0.08181601807371147,
+          "estimate_std": 0.03617308587725162,
+          "bias_empirical": -0.017202402572554537,
+          "var_empirical": 0.0013084921418830206,
+          "mse_empirical": 0.0016044147961512512,
+          "mse_empirical_from_decomposition": 0.0016044147961512514,
+          "mse_decomposition_gap": -2.168404344971009e-19,
+          "mean_sampling_variance": 0.003194640216331835,
+          "mean_sampling_stderr": 0.05652113699755969,
+          "mse_model_bias_plus_mean_sampling_var": 0.003490562870600066
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": 0.18544717914743858,
+          "estimate_std": 0.05435196045460961,
+          "bias_empirical": 0.08642875850117257,
+          "var_empirical": 0.0029541356052594473,
+          "mse_empirical": 0.010424065901313458,
+          "mse_empirical_from_decomposition": 0.010424065901313458,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.01108137974160778,
+          "mean_sampling_stderr": 0.10526720438479324,
+          "mse_model_bias_plus_mean_sampling_var": 0.01855131003766179
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.008819651105162207,
+        "delta_model_based_mse": -0.015060747167061721
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 2,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": 0.00704965054740841,
+          "estimate_std": 0.14694254531851128,
+          "bias_empirical": -0.0919687700988576,
+          "var_empirical": 0.02159211162468274,
+          "mse_empirical": 0.03005036629817926,
+          "mse_empirical_from_decomposition": 0.03005036629817926,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.025590186973809898,
+          "mean_sampling_stderr": 0.1599677819693443,
+          "mse_model_bias_plus_mean_sampling_var": 0.03404844164730642
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": -0.1227919416591906,
+          "estimate_std": 0.41401395170448124,
+          "bias_empirical": -0.22181036230545662,
+          "var_empirical": 0.17140755220596052,
+          "mse_empirical": 0.22060738903203844,
+          "mse_empirical_from_decomposition": 0.22060738903203844,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.09038435307268934,
+          "mean_sampling_stderr": 0.30056714581557825,
+          "mse_model_bias_plus_mean_sampling_var": 0.13958418989876728
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.1905570227338592,
+        "delta_model_based_mse": -0.10553574825146086
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 2,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": 0.06236967304383039,
+          "estimate_std": 0.0914902881818469,
+          "bias_empirical": -0.03664874760243562,
+          "var_empirical": 0.008370472831597395,
+          "mse_empirical": 0.009713603532424425,
+          "mse_empirical_from_decomposition": 0.009713603532424425,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.012787519427472872,
+          "mean_sampling_stderr": 0.11308116599170212,
+          "mse_model_bias_plus_mean_sampling_var": 0.014130650128299902
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": 0.01463752997250065,
+          "estimate_std": 0.32870750057608095,
+          "bias_empirical": -0.08438089067376536,
+          "var_empirical": 0.10804862093497426,
+          "mse_empirical": 0.11516875564587221,
+          "mse_empirical_from_decomposition": 0.1151687556458722,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.0442899130774268,
+          "mean_sampling_stderr": 0.2104078817768264,
+          "mse_model_bias_plus_mean_sampling_var": 0.051410047788324746
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.10545515211344779,
+        "delta_model_based_mse": -0.037279397660024846
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 2,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": 0.12771689011846496,
+          "estimate_std": 0.010356030549967681,
+          "bias_empirical": 0.02869846947219895,
+          "var_empirical": 0.00010724736875186391,
+          "mse_empirical": 0.0009308495187985994,
+          "mse_empirical_from_decomposition": 0.000930849518798599,
+          "mse_decomposition_gap": 4.336808689942018e-19,
+          "mean_sampling_variance": 0.006390816575134739,
+          "mean_sampling_stderr": 0.07994256761928317,
+          "mse_model_bias_plus_mean_sampling_var": 0.007214418725181474
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.09901842064626601,
+          "estimate_mean": 0.13389150216822668,
+          "estimate_std": 0.07642224205873302,
+          "bias_empirical": 0.03487308152196067,
+          "var_empirical": 0.005840359081283582,
+          "mse_empirical": 0.0070564908961208974,
+          "mse_empirical_from_decomposition": 0.007056490896120897,
+          "mse_decomposition_gap": 8.673617379884035e-19,
+          "mean_sampling_variance": 0.022269727003018,
+          "mean_sampling_stderr": 0.14922866073291266,
+          "mse_model_bias_plus_mean_sampling_var": 0.023485858817855313
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.006125641377322298,
+        "delta_model_based_mse": -0.01627144009267384
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 3,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.18253733336793793,
+          "estimate_std": 0.042615855017736355,
+          "bias_empirical": 0.017501256292682843,
+          "var_empirical": 0.001816111098892725,
+          "mse_empirical": 0.002122405070714896,
+          "mse_empirical_from_decomposition": 0.0021224050707148957,
+          "mse_decomposition_gap": 4.336808689942018e-19,
+          "mean_sampling_variance": 0.0032253578580065446,
+          "mean_sampling_stderr": 0.05679210463750492,
+          "mse_model_bias_plus_mean_sampling_var": 0.0035316518298287155
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.09145197853502428,
+          "estimate_std": 0.07606314970557636,
+          "bias_empirical": -0.0735840985402308,
+          "var_empirical": 0.005785602743132921,
+          "mse_empirical": 0.011200222301111316,
+          "mse_empirical_from_decomposition": 0.01120022230111132,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.009936982581391359,
+          "mean_sampling_stderr": 0.09968161122841689,
+          "mse_model_bias_plus_mean_sampling_var": 0.015351602139369758
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.00907781723039642,
+        "delta_model_based_mse": -0.011819950309541041
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 3,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.1338140831414374,
+          "estimate_std": 0.04743642352447034,
+          "bias_empirical": -0.031221993933817693,
+          "var_empirical": 0.002250214276792923,
+          "mse_empirical": 0.0032250271819962723,
+          "mse_empirical_from_decomposition": 0.003225027181996272,
+          "mse_decomposition_gap": 4.336808689942018e-19,
+          "mean_sampling_variance": 0.025686501053311904,
+          "mean_sampling_stderr": 0.1602685246122311,
+          "mse_model_bias_plus_mean_sampling_var": 0.026661313958515252
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.17555539804879117,
+          "estimate_std": 0.12007264725073291,
+          "bias_empirical": 0.010519320973536084,
+          "var_empirical": 0.014417440617798937,
+          "mse_empirical": 0.014528096731543214,
+          "mse_empirical_from_decomposition": 0.014528096731543214,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.07824582227815281,
+          "mean_sampling_stderr": 0.27965949139334245,
+          "mse_model_bias_plus_mean_sampling_var": 0.07835647839189709
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.011303069549546942,
+        "delta_model_based_mse": -0.05169516443338184
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 3,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.1723990282417249,
+          "estimate_std": 0.11650594742761378,
+          "bias_empirical": 0.007362951166469817,
+          "var_empirical": 0.013573635786005905,
+          "mse_empirical": 0.013627848835885723,
+          "mse_empirical_from_decomposition": 0.013627848835885725,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.012904301666707895,
+          "mean_sampling_stderr": 0.11359627588124359,
+          "mse_model_bias_plus_mean_sampling_var": 0.012958514716587715
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.1848847208125446,
+          "estimate_std": 0.14007146419617825,
+          "bias_empirical": 0.019848643737289506,
+          "var_empirical": 0.019620015082061244,
+          "mse_empirical": 0.020013983740271087,
+          "mse_empirical_from_decomposition": 0.020013983740271087,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.04032505799332094,
+          "mean_sampling_stderr": 0.2007875525655441,
+          "mse_model_bias_plus_mean_sampling_var": 0.04071902665153078
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.006386134904385363,
+        "delta_model_based_mse": -0.027760511934943062
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 3,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.10682338694149715,
+          "estimate_std": 0.09535808943203443,
+          "bias_empirical": -0.05821269013375793,
+          "var_empirical": 0.009093165220127876,
+          "mse_empirical": 0.012481882512736795,
+          "mse_empirical_from_decomposition": 0.012481882512736794,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.006455594611285664,
+          "mean_sampling_stderr": 0.08034657383744383,
+          "mse_model_bias_plus_mean_sampling_var": 0.009844311903894582
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16503607707525508,
+          "estimate_mean": 0.10604668387838312,
+          "estimate_std": 0.11046309697051412,
+          "bias_empirical": -0.058989393196871964,
+          "var_empirical": 0.012202095792317206,
+          "mse_empirical": 0.015681844302052373,
+          "mse_empirical_from_decomposition": 0.01568184430205237,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.019592256577899123,
+          "mean_sampling_stderr": 0.13996472295148513,
+          "mse_model_bias_plus_mean_sampling_var": 0.02307200508763429
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0031999617893155776,
+        "delta_model_based_mse": -0.013227693183739706
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 4,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.19423106017206496,
+          "estimate_std": 0.02859345197822046,
+          "bias_empirical": 0.018215114154903428,
+          "var_empirical": 0.0008175854960307995,
+          "mse_empirical": 0.001149375879706963,
+          "mse_empirical_from_decomposition": 0.0011493758797069627,
+          "mse_decomposition_gap": 4.336808689942018e-19,
+          "mean_sampling_variance": 0.0032299632602928313,
+          "mean_sampling_stderr": 0.0568327087461035,
+          "mse_model_bias_plus_mean_sampling_var": 0.0035617536439689944
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.1710043003287366,
+          "estimate_std": 0.03073817074715076,
+          "bias_empirical": -0.005011645688424937,
+          "var_empirical": 0.0009448351408809947,
+          "mse_empirical": 0.0009699517333873031,
+          "mse_empirical_from_decomposition": 0.000969951733387303,
+          "mse_decomposition_gap": 1.0842021724855044e-19,
+          "mean_sampling_variance": 0.01008802773116111,
+          "mean_sampling_stderr": 0.10043731981954981,
+          "mse_model_bias_plus_mean_sampling_var": 0.010113144323667419
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.00017942414631966002,
+        "delta_model_based_mse": -0.006551390679698424
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 4,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.11305296327717852,
+          "estimate_std": 0.16750303319498555,
+          "bias_empirical": -0.062962982739983,
+          "var_empirical": 0.02805726612952043,
+          "mse_empirical": 0.032021603325035834,
+          "mse_empirical_from_decomposition": 0.03202160332503583,
+          "mse_decomposition_gap": 6.938893903907228e-18,
+          "mean_sampling_variance": 0.02601728313618395,
+          "mean_sampling_stderr": 0.16129781322654893,
+          "mse_model_bias_plus_mean_sampling_var": 0.02998162033169935
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.30053125536641323,
+          "estimate_std": 0.21221669844613536,
+          "bias_empirical": 0.1245153093492517,
+          "var_empirical": 0.04503592709937795,
+          "mse_empirical": 0.06053998936171781,
+          "mse_empirical_from_decomposition": 0.0605399893617178,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.08085734548264643,
+          "mean_sampling_stderr": 0.28428227842707116,
+          "mse_model_bias_plus_mean_sampling_var": 0.09636140774498628
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.028518386036681977,
+        "delta_model_based_mse": -0.06637978741328693
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 4,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.22581131693491233,
+          "estimate_std": 0.05511846094089769,
+          "bias_empirical": 0.0497953709177508,
+          "var_empirical": 0.003038044736493264,
+          "mse_empirical": 0.0055176237013296455,
+          "mse_empirical_from_decomposition": 0.005517623701329646,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.012941556782628214,
+          "mean_sampling_stderr": 0.11376051514853835,
+          "mse_model_bias_plus_mean_sampling_var": 0.015421135747464596
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.17542134083047164,
+          "estimate_std": 0.16153690607027232,
+          "bias_empirical": -0.0005946051866898838,
+          "var_empirical": 0.026094172022755983,
+          "mse_empirical": 0.026094525578084022,
+          "mse_empirical_from_decomposition": 0.026094525578084022,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.04093628267815682,
+          "mean_sampling_stderr": 0.20229330293043443,
+          "mse_model_bias_plus_mean_sampling_var": 0.040936636233484855
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.020576901876754376,
+        "delta_model_based_mse": -0.02551550048602026
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 4,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.1271144316419908,
+          "estimate_std": 0.07786504609423961,
+          "bias_empirical": -0.048901514375170735,
+          "var_empirical": 0.006062965403258059,
+          "mse_empirical": 0.008454323511443089,
+          "mse_empirical_from_decomposition": 0.008454323511443089,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.006472823384891803,
+          "mean_sampling_stderr": 0.08045345337834968,
+          "mse_model_bias_plus_mean_sampling_var": 0.008864181493076833
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.17601594601716153,
+          "estimate_mean": 0.14074345079689088,
+          "estimate_std": 0.08179247684775606,
+          "bias_empirical": -0.03527249522027065,
+          "var_empirical": 0.006690009268890711,
+          "mse_empirical": 0.007934158187954728,
+          "mse_empirical_from_decomposition": 0.007934158187954727,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.02041902560738489,
+          "mean_sampling_stderr": 0.14287599077974455,
+          "mse_model_bias_plus_mean_sampling_var": 0.021663174526448906
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.0005201653234883606,
+        "delta_model_based_mse": -0.012798993033372072
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 5,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.22662878310723258,
+          "estimate_std": 0.05927614775287571,
+          "bias_empirical": 0.029123246700815064,
+          "var_empirical": 0.0035136616924207518,
+          "mse_empirical": 0.004361825190817287,
+          "mse_empirical_from_decomposition": 0.004361825190817287,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.003247145036610443,
+          "mean_sampling_stderr": 0.05698368103057295,
+          "mse_model_bias_plus_mean_sampling_var": 0.004095308535006979
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.18834321406067456,
+          "estimate_std": 0.036247088404733833,
+          "bias_empirical": -0.009162322345742963,
+          "var_empirical": 0.00131385141782059,
+          "mse_empirical": 0.001397799568587891,
+          "mse_empirical_from_decomposition": 0.0013977995685878909,
+          "mse_decomposition_gap": 2.168404344971009e-19,
+          "mean_sampling_variance": 0.009714256653844974,
+          "mean_sampling_stderr": 0.09855939831569918,
+          "mse_model_bias_plus_mean_sampling_var": 0.009798204804612274
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.002964025622229396,
+        "delta_model_based_mse": -0.005702896269605295
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 5,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.22126610915848594,
+          "estimate_std": 0.09791020110488137,
+          "bias_empirical": 0.023760572752068415,
+          "var_empirical": 0.009586407480398313,
+          "mse_empirical": 0.010150972297904648,
+          "mse_empirical_from_decomposition": 0.010150972297904648,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.025893263311011862,
+          "mean_sampling_stderr": 0.160913536921665,
+          "mse_model_bias_plus_mean_sampling_var": 0.0264578281285182
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.06282014057019665,
+          "estimate_std": 0.11981179084999931,
+          "bias_empirical": -0.13468539583622086,
+          "var_empirical": 0.014354865226683979,
+          "mse_empirical": 0.03249502107824348,
+          "mse_empirical_from_decomposition": 0.03249502107824348,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.07723454899913512,
+          "mean_sampling_stderr": 0.2777526539147118,
+          "mse_model_bias_plus_mean_sampling_var": 0.09537470485069462
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.022344048780338834,
+        "delta_model_based_mse": -0.06891687672217642
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 5,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.23902216823565134,
+          "estimate_std": 0.08863048122232675,
+          "bias_empirical": 0.04151663182923382,
+          "var_empirical": 0.007855362201701214,
+          "mse_empirical": 0.009578992920145364,
+          "mse_empirical_from_decomposition": 0.009578992920145364,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.013005943960426813,
+          "mean_sampling_stderr": 0.11404271013647636,
+          "mse_model_bias_plus_mean_sampling_var": 0.014729574678870963
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.23294851987077306,
+          "estimate_std": 0.17173108910068527,
+          "bias_empirical": 0.03544298346435554,
+          "var_empirical": 0.029491566963707503,
+          "mse_empirical": 0.03074777204056208,
+          "mse_empirical_from_decomposition": 0.030747772040562085,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.039167657688762,
+          "mean_sampling_stderr": 0.19789294201431343,
+          "mse_model_bias_plus_mean_sampling_var": 0.04042386276561658
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.021168779120416717,
+        "delta_model_based_mse": -0.02569428808674562
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 5,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.21668693440346984,
+          "estimate_std": 0.08753116794628905,
+          "bias_empirical": 0.01918139799705232,
+          "var_empirical": 0.007661705362041461,
+          "mse_empirical": 0.008029631391162783,
+          "mse_empirical_from_decomposition": 0.008029631391162783,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0064935089496272165,
+          "mean_sampling_stderr": 0.08058221258808725,
+          "mse_model_bias_plus_mean_sampling_var": 0.006861434978748539
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.19750553640641752,
+          "estimate_mean": 0.2179721057568963,
+          "estimate_std": 0.053360196161916625,
+          "bias_empirical": 0.020466569350478775,
+          "var_empirical": 0.0028473105344382216,
+          "mse_empirical": 0.0032661909954161787,
+          "mse_empirical_from_decomposition": 0.0032661909954161787,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.019340495242951262,
+          "mean_sampling_stderr": 0.1390645014153482,
+          "mse_model_bias_plus_mean_sampling_var": 0.01975937570392922
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.004763440395746605,
+        "delta_model_based_mse": -0.01289794072518068
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 6,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.2317927549433361,
+          "estimate_std": 0.027919105579595937,
+          "bias_empirical": -0.007859199264072025,
+          "var_empirical": 0.000779476456364625,
+          "mse_empirical": 0.0008412434694370153,
+          "mse_empirical_from_decomposition": 0.0008412434694370153,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.003253155792511217,
+          "mean_sampling_stderr": 0.05703637329474251,
+          "mse_model_bias_plus_mean_sampling_var": 0.0033149228055836073
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.20655226915832223,
+          "estimate_std": 0.08617333474851853,
+          "bias_empirical": -0.03309968504908589,
+          "var_empirical": 0.007425843621680231,
+          "mse_empirical": 0.008521432772028912,
+          "mse_empirical_from_decomposition": 0.008521432772028912,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.008992351471280599,
+          "mean_sampling_stderr": 0.0948262999388423,
+          "mse_model_bias_plus_mean_sampling_var": 0.01008794062162928
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0076801893025918964,
+        "delta_model_based_mse": -0.006773017816045672
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 6,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.25015149678826804,
+          "estimate_std": 0.12040002765183451,
+          "bias_empirical": 0.010499542580859916,
+          "var_empirical": 0.014496166658562515,
+          "mse_empirical": 0.014606407052969806,
+          "mse_empirical_from_decomposition": 0.014606407052969806,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.026028047057847333,
+          "mean_sampling_stderr": 0.16132964458384746,
+          "mse_model_bias_plus_mean_sampling_var": 0.026138287452254622
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.2697457179532426,
+          "estimate_std": 0.14158516755957948,
+          "bias_empirical": 0.030093763745834473,
+          "var_empirical": 0.020046359672874197,
+          "mse_empirical": 0.020951994289264295,
+          "mse_empirical_from_decomposition": 0.020951994289264298,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.07294359558776671,
+          "mean_sampling_stderr": 0.2699626238803417,
+          "mse_model_bias_plus_mean_sampling_var": 0.07384923020415682
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.006345587236294489,
+        "delta_model_based_mse": -0.0477109427519022
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 6,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.13737827715355802,
+          "estimate_std": 0.09345482974948364,
+          "bias_empirical": -0.1022736770538501,
+          "var_empirical": 0.008733805203504974,
+          "mse_empirical": 0.019193710221620194,
+          "mse_empirical_from_decomposition": 0.019193710221620197,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.013051702676170908,
+          "mean_sampling_stderr": 0.11424379275869045,
+          "mse_model_bias_plus_mean_sampling_var": 0.023511607694286132
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.35396482497481546,
+          "estimate_std": 0.1268270504404642,
+          "bias_empirical": 0.11431287076740734,
+          "var_empirical": 0.016085100723428048,
+          "mse_empirical": 0.029152533146514018,
+          "mse_empirical_from_decomposition": 0.02915253314651402,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.03541191652626962,
+          "mean_sampling_stderr": 0.18813747612037923,
+          "mse_model_bias_plus_mean_sampling_var": 0.04847934894935559
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.009958822924893824,
+        "delta_model_based_mse": -0.02496774125506946
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 7,
+        "num_steps": 6,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.2306663525167462,
+          "estimate_std": 0.06609952685144639,
+          "bias_empirical": -0.008985601690661926,
+          "var_empirical": 0.0043691474499850825,
+          "mse_empirical": 0.004449888487728308,
+          "mse_empirical_from_decomposition": 0.004449888487728309,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.006508821547402403,
+          "mean_sampling_stderr": 0.08067713980646889,
+          "mse_model_bias_plus_mean_sampling_var": 0.006589562585145629
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.23965195420740812,
+          "estimate_mean": 0.13950609471857883,
+          "estimate_std": 0.20501864372061473,
+          "bias_empirical": -0.10014585948882929,
+          "var_empirical": 0.04203264427304036,
+          "mse_empirical": 0.052061837445796705,
+          "mse_empirical_from_decomposition": 0.052061837445796705,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.018053423723334745,
+          "mean_sampling_stderr": 0.13435099857983898,
+          "mse_model_bias_plus_mean_sampling_var": 0.028082616896091084
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0476119489580684,
+        "delta_model_based_mse": -0.021493054310945454
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 1,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": -0.018184435946715184,
+          "estimate_std": 0.08310885677343176,
+          "bias_empirical": 0.025713414373697327,
+          "var_empirical": 0.006907082074186794,
+          "mse_empirical": 0.0075682617529402585,
+          "mse_empirical_from_decomposition": 0.0075682617529402585,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.006391999708116647,
+          "mean_sampling_stderr": 0.07994975508043414,
+          "mse_model_bias_plus_mean_sampling_var": 0.007053179386870111
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": -0.10892664585069559,
+          "estimate_std": 0.24902871405533447,
+          "bias_empirical": -0.06502879553028307,
+          "var_empirical": 0.06201530042405354,
+          "mse_empirical": 0.0662440446721729,
+          "mse_empirical_from_decomposition": 0.0662440446721729,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.01465620327729065,
+          "mean_sampling_stderr": 0.12106064038984587,
+          "mse_model_bias_plus_mean_sampling_var": 0.018884947525410013
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.058675782919232644,
+        "delta_model_based_mse": -0.011831768138539901
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 1,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": -0.2094728800611154,
+          "estimate_std": 0.3172688505050383,
+          "bias_empirical": -0.16557502974070287,
+          "var_empirical": 0.10065952350078833,
+          "mse_empirical": 0.128074613974423,
+          "mse_empirical_from_decomposition": 0.12807461397442296,
+          "mse_decomposition_gap": 2.7755575615628914e-17,
+          "mean_sampling_variance": 0.05166902435478878,
+          "mean_sampling_stderr": 0.22730037399511596,
+          "mse_model_bias_plus_mean_sampling_var": 0.07908411482842342
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": -0.2404665531048,
+          "estimate_std": 0.5956800927740358,
+          "bias_empirical": -0.19656870278438748,
+          "var_empirical": 0.3548347729272839,
+          "mse_empirical": 0.3934740278416208,
+          "mse_empirical_from_decomposition": 0.3934740278416207,
+          "mse_decomposition_gap": 5.551115123125783e-17,
+          "mean_sampling_variance": 0.11644821354414803,
+          "mean_sampling_stderr": 0.3411543636860341,
+          "mse_model_bias_plus_mean_sampling_var": 0.1550874684584849
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.2653994138671978,
+        "delta_model_based_mse": -0.07600335363006147
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 1,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": -0.10761030500444181,
+          "estimate_std": 0.025080181014053685,
+          "bias_empirical": -0.06371245468402931,
+          "var_empirical": 0.0006290154796976989,
+          "mse_empirical": 0.004688292361562186,
+          "mse_empirical_from_decomposition": 0.0046882923615621875,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.02573816446093875,
+          "mean_sampling_stderr": 0.16043086929436426,
+          "mse_model_bias_plus_mean_sampling_var": 0.029797441342803238
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": 0.009017654278360038,
+          "estimate_std": 0.19083951112049558,
+          "bias_empirical": 0.05291550459877255,
+          "var_empirical": 0.03641971900470976,
+          "mse_empirical": 0.039219769631652475,
+          "mse_empirical_from_decomposition": 0.039219769631652475,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.05841462077454529,
+          "mean_sampling_stderr": 0.2416596905411067,
+          "mse_model_bias_plus_mean_sampling_var": 0.06121467140148801
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.03453147727009029,
+        "delta_model_based_mse": -0.03141723005868477
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 1,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": -0.02493506493506493,
+          "estimate_std": 0.09908591800436366,
+          "bias_empirical": 0.01896278538534758,
+          "var_empirical": 0.009818019146767477,
+          "mse_empirical": 0.01017760637633823,
+          "mse_empirical_from_decomposition": 0.010177606376338228,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.012789949634860012,
+          "mean_sampling_stderr": 0.11309176762223874,
+          "mse_model_bias_plus_mean_sampling_var": 0.013149536864430763
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": -0.04389785032041251,
+          "estimate_mean": -0.06916451778942058,
+          "estimate_std": 0.24873102725016932,
+          "bias_empirical": -0.025266667469008068,
+          "var_empirical": 0.06186712391692448,
+          "mse_empirical": 0.0625055284019139,
+          "mse_empirical_from_decomposition": 0.06250552840191391,
+          "mse_decomposition_gap": -1.3877787807814457e-17,
+          "mean_sampling_variance": 0.028954288363473232,
+          "mean_sampling_stderr": 0.1701499207241827,
+          "mse_model_bias_plus_mean_sampling_var": 0.02959269284846266
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.052327922025575666,
+        "delta_model_based_mse": -0.0164431559840319
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 2,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": 0.07619517478684133,
+          "estimate_std": 0.021478889915679075,
+          "bias_empirical": 0.026059744954342545,
+          "var_empirical": 0.00046134271200986025,
+          "mse_empirical": 0.0011404530190952421,
+          "mse_empirical_from_decomposition": 0.001140453019095242,
+          "mse_decomposition_gap": 2.168404344971009e-19,
+          "mean_sampling_variance": 0.0065730846805278275,
+          "mean_sampling_stderr": 0.08107453229069388,
+          "mse_model_bias_plus_mean_sampling_var": 0.007252194987613209
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": 0.059610942371551554,
+          "estimate_std": 0.10612432514731274,
+          "bias_empirical": 0.009475512539052766,
+          "var_empirical": 0.011262372387972555,
+          "mse_empirical": 0.0113521577258503,
+          "mse_empirical_from_decomposition": 0.011352157725850302,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.01752435080327362,
+          "mean_sampling_stderr": 0.1323767276257697,
+          "mse_model_bias_plus_mean_sampling_var": 0.017614136141151364
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.010211704706755058,
+        "delta_model_based_mse": -0.010361941153538154
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 2,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": -0.101426024955437,
+          "estimate_std": 0.08530676301874665,
+          "bias_empirical": -0.15156145478793578,
+          "var_empirical": 0.007277243816736601,
+          "mse_empirical": 0.03024811839417211,
+          "mse_empirical_from_decomposition": 0.030248118394172106,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.052539934723255556,
+          "mean_sampling_stderr": 0.22921363648670562,
+          "mse_model_bias_plus_mean_sampling_var": 0.07551080930069107
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": 0.021406407953198293,
+          "estimate_std": 0.3151804591174474,
+          "bias_empirical": -0.028729021879300494,
+          "var_empirical": 0.09933872180948494,
+          "mse_empirical": 0.10016407850762626,
+          "mse_empirical_from_decomposition": 0.10016407850762626,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.14028068045127057,
+          "mean_sampling_stderr": 0.37448819486881835,
+          "mse_model_bias_plus_mean_sampling_var": 0.1411060371494119
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.06991596011345416,
+        "delta_model_based_mse": -0.06559522784872082
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 2,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": 0.04398240196285795,
+          "estimate_std": 0.23712724440828697,
+          "bias_empirical": -0.006153027869640837,
+          "var_empirical": 0.05622933004066746,
+          "mse_empirical": 0.056267189792632046,
+          "mse_empirical_from_decomposition": 0.05626718979263204,
+          "mse_decomposition_gap": 6.938893903907228e-18,
+          "mean_sampling_variance": 0.02616035267939561,
+          "mean_sampling_stderr": 0.16174081455247658,
+          "mse_model_bias_plus_mean_sampling_var": 0.026198212431360186
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": 0.12304614260265404,
+          "estimate_std": 0.15600646634291762,
+          "bias_empirical": 0.07291071277015525,
+          "var_empirical": 0.024338017540803888,
+          "mse_empirical": 0.02965398957745596,
+          "mse_empirical_from_decomposition": 0.029653989577455967,
+          "mse_decomposition_gap": -6.938893903907228e-18,
+          "mean_sampling_variance": 0.0715968893746578,
+          "mean_sampling_stderr": 0.26755464509346666,
+          "mse_model_bias_plus_mean_sampling_var": 0.07691286141130987
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.026613200215176085,
+        "delta_model_based_mse": -0.05071464897994969
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 2,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": 0.04055221201562666,
+          "estimate_std": 0.05308858982201636,
+          "bias_empirical": -0.00958321781687213,
+          "var_empirical": 0.0028183983692902995,
+          "mse_empirical": 0.002910236433015915,
+          "mse_empirical_from_decomposition": 0.002910236433015915,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.013102283121670355,
+          "mean_sampling_stderr": 0.11446498774115767,
+          "mse_model_bias_plus_mean_sampling_var": 0.01319412118539597
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.05013542983249879,
+          "estimate_mean": -0.10293914055307662,
+          "estimate_std": 0.11937669894774691,
+          "bias_empirical": -0.15307457038557543,
+          "var_empirical": 0.014250796251660999,
+          "mse_empirical": 0.03768262035038948,
+          "mse_empirical_from_decomposition": 0.03768262035038948,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.035792067509146354,
+          "mean_sampling_stderr": 0.1891850330566438,
+          "mse_model_bias_plus_mean_sampling_var": 0.059223891607874835
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.03477238391737357,
+        "delta_model_based_mse": -0.04602977042247886
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 3,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": 0.14415406867309938,
+          "estimate_std": 0.07473192995490427,
+          "bias_empirical": 0.006845660261737413,
+          "var_empirical": 0.005584861354784718,
+          "mse_empirical": 0.00563172441920385,
+          "mse_empirical_from_decomposition": 0.005631724419203849,
+          "mse_decomposition_gap": 8.673617379884035e-19,
+          "mean_sampling_variance": 0.006611350019389173,
+          "mean_sampling_stderr": 0.08131008579044241,
+          "mse_model_bias_plus_mean_sampling_var": 0.006658213083808304
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": 0.13502584813743737,
+          "estimate_std": 0.13934784402174472,
+          "bias_empirical": -0.0022825602739245943,
+          "var_empirical": 0.019417821633508494,
+          "mse_empirical": 0.01942303171491259,
+          "mse_empirical_from_decomposition": 0.01942303171491259,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.01506395339927956,
+          "mean_sampling_stderr": 0.1227331154374588,
+          "mse_model_bias_plus_mean_sampling_var": 0.01506916348068366
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.013791307295708741,
+        "delta_model_based_mse": -0.008410950396875356
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 3,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": 0.15137933961463354,
+          "estimate_std": 0.3502453082128582,
+          "bias_empirical": 0.014070931203271575,
+          "var_empirical": 0.12267177592512005,
+          "mse_empirical": 0.12286976703004725,
+          "mse_empirical_from_decomposition": 0.12286976703004725,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.052912877660339266,
+          "mean_sampling_stderr": 0.23002134125997398,
+          "mse_model_bias_plus_mean_sampling_var": 0.05311086876526647
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": -0.0017187244886960773,
+          "estimate_std": 0.33324757403242894,
+          "bias_empirical": -0.13902713290005805,
+          "var_empirical": 0.11105394559849921,
+          "mse_empirical": 0.1303824892809096,
+          "mse_empirical_from_decomposition": 0.13038248928090962,
+          "mse_decomposition_gap": -2.7755575615628914e-17,
+          "mean_sampling_variance": 0.12253147614074933,
+          "mean_sampling_stderr": 0.34998445564926356,
+          "mse_model_bias_plus_mean_sampling_var": 0.14186001982315974
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.007512722250862344,
+        "delta_model_based_mse": -0.08874915105789327
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 3,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": 0.07672913405812423,
+          "estimate_std": 0.1873311493798888,
+          "bias_empirical": -0.06057927435323773,
+          "var_empirical": 0.03509295952799021,
+          "mse_empirical": 0.038762808009155054,
+          "mse_empirical_from_decomposition": 0.038762808009155054,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.026495720796139967,
+          "mean_sampling_stderr": 0.16277488144082766,
+          "mse_model_bias_plus_mean_sampling_var": 0.030165569277304814
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": 0.12904299465272231,
+          "estimate_std": 0.2670060555695813,
+          "bias_empirical": -0.00826541375863965,
+          "var_empirical": 0.07129223371082634,
+          "mse_empirical": 0.07136055077542786,
+          "mse_empirical_from_decomposition": 0.07136055077542784,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.0610771556771816,
+          "mean_sampling_stderr": 0.247111079933893,
+          "mse_model_bias_plus_mean_sampling_var": 0.061145472741783106
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.0325977427662728,
+        "delta_model_based_mse": -0.030979903464478292
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 3,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": 0.2813842255305669,
+          "estimate_std": 0.1319555955916306,
+          "bias_empirical": 0.14407581711920495,
+          "var_empirical": 0.017412279207941958,
+          "mse_empirical": 0.03817012028650855,
+          "mse_empirical_from_decomposition": 0.03817012028650855,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.013123638754795339,
+          "mean_sampling_stderr": 0.11455836447577979,
+          "mse_model_bias_plus_mean_sampling_var": 0.03388147983336193
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.13730840841136197,
+          "estimate_mean": 0.20705694126242138,
+          "estimate_std": 0.05915364424936524,
+          "bias_empirical": 0.06974853285105942,
+          "var_empirical": 0.0034991536279804615,
+          "mse_empirical": 0.008364011462855777,
+          "mse_empirical_from_decomposition": 0.008364011462855776,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.030259277445680403,
+          "mean_sampling_stderr": 0.17393665149085075,
+          "mse_model_bias_plus_mean_sampling_var": 0.03512413528055572
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": 0.02980610882365277,
+        "delta_model_based_mse": -0.0012426554471937912
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 4,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.10940857125874272,
+          "estimate_std": 0.0698227379472272,
+          "bias_empirical": -0.0384400015685097,
+          "var_empirical": 0.00487521473444716,
+          "mse_empirical": 0.006352848455034188,
+          "mse_empirical_from_decomposition": 0.006352848455034189,
+          "mse_decomposition_gap": -8.673617379884035e-19,
+          "mean_sampling_variance": 0.006645593340655449,
+          "mean_sampling_stderr": 0.08152041041667725,
+          "mse_model_bias_plus_mean_sampling_var": 0.008123227061242477
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.21965695162188253,
+          "estimate_std": 0.0666614864242231,
+          "bias_empirical": 0.07180837879463012,
+          "var_empirical": 0.004443753772286879,
+          "mse_empirical": 0.009600197037399965,
+          "mse_empirical_from_decomposition": 0.009600197037399963,
+          "mse_decomposition_gap": 1.734723475976807e-18,
+          "mean_sampling_variance": 0.015267556360937594,
+          "mean_sampling_stderr": 0.12355765818846005,
+          "mse_model_bias_plus_mean_sampling_var": 0.02042399962605068
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.003247348582365777,
+        "delta_model_based_mse": -0.012300772564808202
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 4,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.056667515491044713,
+          "estimate_std": 0.36070868745752227,
+          "bias_empirical": -0.09118105733620771,
+          "var_empirical": 0.13011075720732848,
+          "mse_empirical": 0.13842474242427727,
+          "mse_empirical_from_decomposition": 0.13842474242427727,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.052812319033983604,
+          "mean_sampling_stderr": 0.22980498735464705,
+          "mse_model_bias_plus_mean_sampling_var": 0.061126304250932406
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.20761208080703064,
+          "estimate_std": 0.42281760997369455,
+          "bias_empirical": 0.059763507979778224,
+          "var_empirical": 0.17877473130386728,
+          "mse_empirical": 0.18234640818991632,
+          "mse_empirical_from_decomposition": 0.1823464081899163,
+          "mse_decomposition_gap": 2.7755575615628914e-17,
+          "mean_sampling_variance": 0.1191600778444263,
+          "mean_sampling_stderr": 0.34512473902210483,
+          "mse_model_bias_plus_mean_sampling_var": 0.12273175473047532
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.04392166576563905,
+        "delta_model_based_mse": -0.06160545047954291
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 4,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.25286391133296654,
+          "estimate_std": 0.09704055251401449,
+          "bias_empirical": 0.10501533850571412,
+          "var_empirical": 0.009416868832225204,
+          "mse_empirical": 0.020445090153694924,
+          "mse_empirical_from_decomposition": 0.020445090153694927,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.026493651530034298,
+          "mean_sampling_stderr": 0.16276833115807052,
+          "mse_model_bias_plus_mean_sampling_var": 0.03752187285150402
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.3263187705433228,
+          "estimate_std": 0.20649134313936832,
+          "bias_empirical": 0.1784701977160704,
+          "var_empirical": 0.04263867479150035,
+          "mse_empirical": 0.07449028626431362,
+          "mse_empirical_from_decomposition": 0.07449028626431362,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.05940683031274352,
+          "mean_sampling_stderr": 0.24372004443187248,
+          "mse_model_bias_plus_mean_sampling_var": 0.09125844178555678
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.05404519611061869,
+        "delta_model_based_mse": -0.053736568934052764
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 4,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.10415267659170092,
+          "estimate_std": 0.044251050784180956,
+          "bias_empirical": -0.04369589623555149,
+          "var_empirical": 0.001958155495504162,
+          "mse_empirical": 0.0038674868433322446,
+          "mse_empirical_from_decomposition": 0.003867486843332245,
+          "mse_decomposition_gap": -4.336808689942018e-19,
+          "mean_sampling_variance": 0.01326968401063936,
+          "mean_sampling_stderr": 0.11519399888796174,
+          "mse_model_bias_plus_mean_sampling_var": 0.015179015358467442
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.14784857282725242,
+          "estimate_mean": 0.07019921161412937,
+          "estimate_std": 0.15395740836682764,
+          "bias_empirical": -0.07764936121312305,
+          "var_empirical": 0.02370288359103013,
+          "mse_empirical": 0.029732306887836183,
+          "mse_empirical_from_decomposition": 0.029732306887836187,
+          "mse_decomposition_gap": -3.469446951953614e-18,
+          "mean_sampling_variance": 0.030531232119803905,
+          "mean_sampling_stderr": 0.1747258712771278,
+          "mse_model_bias_plus_mean_sampling_var": 0.036560655416609966
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.02586482004450394,
+        "delta_model_based_mse": -0.021381640058142526
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 5,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.158197248584996,
+          "estimate_std": 0.05361646691494181,
+          "bias_empirical": -0.009051427014683477,
+          "var_empirical": 0.00287472552444105,
+          "mse_empirical": 0.0029566538554431916,
+          "mse_empirical_from_decomposition": 0.0029566538554431916,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.006652574727556641,
+          "mean_sampling_stderr": 0.08156321989393514,
+          "mse_model_bias_plus_mean_sampling_var": 0.006734503058558783
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.23740934635109132,
+          "estimate_std": 0.059428748667899295,
+          "bias_empirical": 0.07016067075141183,
+          "var_empirical": 0.003531776168232342,
+          "mse_empirical": 0.008454295888520357,
+          "mse_empirical_from_decomposition": 0.008454295888520357,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.01644709573319665,
+          "mean_sampling_stderr": 0.12824216353460655,
+          "mse_model_bias_plus_mean_sampling_var": 0.021369615453484668
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.005497642033077165,
+        "delta_model_based_mse": -0.014635112394925886
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 5,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.19320091673032835,
+          "estimate_std": 0.11095626752563131,
+          "bias_empirical": 0.025952241130648868,
+          "var_empirical": 0.012311293303219466,
+          "mse_empirical": 0.012984812122922807,
+          "mse_empirical_from_decomposition": 0.01298481212292281,
+          "mse_decomposition_gap": -1.734723475976807e-18,
+          "mean_sampling_variance": 0.05306367994446322,
+          "mean_sampling_stderr": 0.23035432778489442,
+          "mse_model_bias_plus_mean_sampling_var": 0.05373719876416656
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.03233237728881143,
+          "estimate_std": 0.2870906783621119,
+          "bias_empirical": -0.13491629831086804,
+          "var_empirical": 0.08242105760241758,
+          "mse_empirical": 0.10062346515232472,
+          "mse_empirical_from_decomposition": 0.10062346515232472,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.132039390162799,
+          "mean_sampling_stderr": 0.3632488346358454,
+          "mse_model_bias_plus_mean_sampling_var": 0.15024179771270613
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.08763865302940191,
+        "delta_model_based_mse": -0.09650459894853956
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 5,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.09044587334489604,
+          "estimate_std": 0.08549429282436517,
+          "bias_empirical": -0.07680280225478345,
+          "var_empirical": 0.007309274105538298,
+          "mse_empirical": 0.01320794453972567,
+          "mse_empirical_from_decomposition": 0.013207944539725666,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.026640629816910698,
+          "mean_sampling_stderr": 0.16321913487284972,
+          "mse_model_bias_plus_mean_sampling_var": 0.032539300251098066
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.2033075088292713,
+          "estimate_std": 0.2484158347496771,
+          "bias_empirical": 0.0360588332295918,
+          "var_empirical": 0.06171042695437888,
+          "mse_empirical": 0.06301066640825839,
+          "mse_empirical_from_decomposition": 0.06301066640825839,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.0647792107044334,
+          "mean_sampling_stderr": 0.25451095202877794,
+          "mse_model_bias_plus_mean_sampling_var": 0.06607945015831292
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.049802721868532726,
+        "delta_model_based_mse": -0.03354014990721485
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 5,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.19559497413155938,
+          "estimate_std": 0.12692597238205566,
+          "bias_empirical": 0.028346298531879893,
+          "var_empirical": 0.01611020246513036,
+          "mse_empirical": 0.016913715105588815,
+          "mse_empirical_from_decomposition": 0.016913715105588815,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.013282065120631738,
+          "mean_sampling_stderr": 0.1152476453356568,
+          "mse_model_bias_plus_mean_sampling_var": 0.014085577761090195
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.16724867559967949,
+          "estimate_mean": 0.15614792083642293,
+          "estimate_std": 0.1648240552657963,
+          "bias_empirical": -0.01110075476325656,
+          "var_empirical": 0.027166969194262272,
+          "mse_empirical": 0.02729019595057624,
+          "mse_empirical_from_decomposition": 0.027290195950576236,
+          "mse_decomposition_gap": 3.469446951953614e-18,
+          "mean_sampling_variance": 0.033332312431864665,
+          "mean_sampling_stderr": 0.1825666138429122,
+          "mse_model_bias_plus_mean_sampling_var": 0.033455539188178625
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.010376480844987424,
+        "delta_model_based_mse": -0.019369961427088432
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 6,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": 0.1721543064333974,
+          "estimate_std": 0.10943958486004164,
+          "bias_empirical": -0.0031118836655882887,
+          "var_empirical": 0.011977022734338255,
+          "mse_empirical": 0.01198670655428641,
+          "mse_empirical_from_decomposition": 0.01198670655428641,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.00663262660884637,
+          "mean_sampling_stderr": 0.0814408733986917,
+          "mse_model_bias_plus_mean_sampling_var": 0.006642310428794525
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": -0.028289019670435355,
+          "estimate_std": 0.2932695188487082,
+          "bias_empirical": -0.20355520976942104,
+          "var_empirical": 0.08600701068575282,
+          "mse_empirical": 0.12744173411002582,
+          "mse_empirical_from_decomposition": 0.12744173411002582,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.017036528707562146,
+          "mean_sampling_stderr": 0.1305187606346368,
+          "mse_model_bias_plus_mean_sampling_var": 0.058471252131835155
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.11545502755573941,
+        "delta_model_based_mse": -0.05182894170304063
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 6,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": 0.18165690518631677,
+          "estimate_std": 0.18711426411310328,
+          "bias_empirical": 0.006390715087331078,
+          "var_empirical": 0.03501174783458817,
+          "mse_empirical": 0.03505258907391561,
+          "mse_empirical_from_decomposition": 0.03505258907391561,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.05309334505559576,
+          "mean_sampling_stderr": 0.2304195515026614,
+          "mse_model_bias_plus_mean_sampling_var": 0.0531341862949232
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": -0.08179842496720681,
+          "estimate_std": 0.18995928485125266,
+          "bias_empirical": -0.2570646150661925,
+          "var_empirical": 0.03608452990119935,
+          "mse_empirical": 0.10216674622032908,
+          "mse_empirical_from_decomposition": 0.10216674622032906,
+          "mse_decomposition_gap": 1.3877787807814457e-17,
+          "mean_sampling_variance": 0.13761156198890762,
+          "mean_sampling_stderr": 0.37092190787761337,
+          "mse_model_bias_plus_mean_sampling_var": 0.20369377830803734
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.06711415714641347,
+        "delta_model_based_mse": -0.15055959201311414
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 6,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": 0.12407250729726281,
+          "estimate_std": 0.0861461362063143,
+          "bias_empirical": -0.05119368280172289,
+          "var_empirical": 0.007421156783276855,
+          "mse_empirical": 0.010041949942080273,
+          "mse_empirical_from_decomposition": 0.010041949942080273,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.026622143485202424,
+          "mean_sampling_stderr": 0.16316267460245845,
+          "mse_model_bias_plus_mean_sampling_var": 0.029242936644005842
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": 0.12422218653453461,
+          "estimate_std": 0.3838174887298995,
+          "bias_empirical": -0.05104400356445109,
+          "var_empirical": 0.14731586465492655,
+          "mse_empirical": 0.14992135495481423,
+          "mse_empirical_from_decomposition": 0.14992135495481423,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.069082089613862,
+          "mean_sampling_stderr": 0.26280214768021504,
+          "mse_model_bias_plus_mean_sampling_var": 0.0716875799137497
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.13987940501273396,
+        "delta_model_based_mse": -0.042444643269743856
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_floquet_noiseless",
+        "num_qubits": 9,
+        "num_steps": 6,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": 0.17511561609122572,
+          "estimate_std": 0.07175511862294087,
+          "bias_empirical": -0.00015057400775997376,
+          "var_empirical": 0.005148797048592316,
+          "mse_empirical": 0.005148819721124129,
+          "mse_empirical_from_decomposition": 0.005148819721124129,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.01326780419049114,
+          "mean_sampling_stderr": 0.11518584449373745,
+          "mse_model_bias_plus_mean_sampling_var": 0.013267826863022952
+        },
+        "PS_QWC": {
+          "n": 5,
+          "exact_energy": 0.1752661900989857,
+          "estimate_mean": 0.037549077791039054,
+          "estimate_std": 0.34259599818219955,
+          "bias_empirical": -0.13771711230794664,
+          "var_empirical": 0.11737201797045767,
+          "mse_empirical": 0.13633802099289727,
+          "mse_empirical_from_decomposition": 0.13633802099289727,
+          "mse_decomposition_gap": 0.0,
+          "mean_sampling_variance": 0.03402002860817979,
+          "mean_sampling_stderr": 0.1844389110636651,
+          "mse_model_bias_plus_mean_sampling_var": 0.05298603163061938
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.13118920127177314,
+        "delta_model_based_mse": -0.039718204767596424
+      }
+    }
+  ]
+}

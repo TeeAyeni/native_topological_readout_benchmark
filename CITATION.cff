@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "QWC Hamiltonian Benchmark Workflows"
+message: "If you use this software, please cite this release and reference the associated PRA manuscript."
+type: software
+authors:
+  - family-names: "Ayeni"
+    given-names: "Babatunde M."
+    orcid: "https://orcid.org/0000-0003-4035-149X"
+    affiliation: "Department of Physics, Maynooth University; School of Mathematics and Statistics, Technological University Dublin"
+abstract: "Self-contained Qiskit workflows for benchmarking native fusion readout against grouped Pauli sampling on Fibonacci-chain Hamiltonians across Floquet-evolution and locked-state VQE workloads, including IBM hardware submission, returned-job collection and reduction, dataset summarization, and manuscript-figure generation."
+keywords:
+  - "quantum computing"
+  - "qiskit"
+  - "hamiltonian simulation"
+  - "Floquet evolution"
+  - "variational quantum eigensolver"
+  - "Fibonacci anyons"
+  - "measurement compilation"
+version: "1.0.0"
+date-released: 2026-05-24
+license: "NOASSERTION"

@@ -1,0 +1,698 @@
+{
+  "dataset": "bundled_example:locked_state_vqe_hardware_with_snapshot_fill_20260515.jsonl",
+  "group_fields": [
+    "dataset_tag",
+    "num_qubits",
+    "budget_total"
+  ],
+  "groups": [
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 11,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -6.161639339577159,
+          "estimate_std": 0.8177013720698532,
+          "bias_empirical": 4.202756348052245,
+          "var_empirical": 0.6686355338849205,
+          "mse_empirical": 18.331796454978274,
+          "mse_empirical_from_decomposition": 18.33179645497836,
+          "mse_decomposition_gap": -8.526512829121202e-14,
+          "mean_sampling_variance": 0.00823812273247109,
+          "mean_sampling_stderr": 0.0907041046115153,
+          "mse_model_bias_plus_mean_sampling_var": 17.67139904382591
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -6.290913556201254,
+          "estimate_std": 0.9725855419273254,
+          "bias_empirical": 4.07348213142815,
+          "var_empirical": 0.9459226363660692,
+          "mse_empirical": 17.539179311430473,
+          "mse_empirical_from_decomposition": 17.539179311430498,
+          "mse_decomposition_gap": -2.4868995751603507e-14,
+          "mean_sampling_variance": 0.023312887191168447,
+          "mean_sampling_stderr": 0.15263508794079325,
+          "mse_model_bias_plus_mean_sampling_var": 16.616569562255595
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.7926171435478011,
+        "delta_model_based_mse": 1.0548294815703159
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 11,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -6.216524216524215,
+          "estimate_std": 1.2484203734722026,
+          "bias_empirical": 4.147871471105189,
+          "var_empirical": 1.5585534289004739,
+          "mse_empirical": 18.763391169708665,
+          "mse_empirical_from_decomposition": 18.763391169708797,
+          "mse_decomposition_gap": -1.3145040611561853e-13,
+          "mean_sampling_variance": 0.06631915268162412,
+          "mean_sampling_stderr": 0.25686903088194085,
+          "mse_model_bias_plus_mean_sampling_var": 17.271156893489948
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -7.216240175814642,
+          "estimate_std": 0.1772877337407642,
+          "bias_empirical": 3.148155511814762,
+          "var_empirical": 0.0314309405349361,
+          "mse_empirical": 9.942314067104585,
+          "mse_empirical_from_decomposition": 9.942314067104602,
+          "mse_decomposition_gap": -1.7763568394002505e-14,
+          "mean_sampling_variance": 0.17893662098723254,
+          "mean_sampling_stderr": 0.42297274229571935,
+          "mse_model_bias_plus_mean_sampling_var": 10.0898197475569
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 8.82107710260408,
+        "delta_model_based_mse": 7.181337145933048
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 11,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -5.828681331890852,
+          "estimate_std": 0.8393545574805267,
+          "bias_empirical": 4.535714355738552,
+          "var_empirical": 0.7045160731633308,
+          "mse_empirical": 21.277220790016035,
+          "mse_empirical_from_decomposition": 21.277220790016116,
+          "mse_decomposition_gap": -8.171241461241152e-14,
+          "mean_sampling_variance": 0.03353240805991163,
+          "mean_sampling_stderr": 0.18306546569735052,
+          "mse_model_bias_plus_mean_sampling_var": 20.6062371249127
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -6.936483985256867,
+          "estimate_std": 0.9891836502539532,
+          "bias_empirical": 3.427911702372537,
+          "var_empirical": 0.9784842939297351,
+          "mse_empirical": 12.729062933192322,
+          "mse_empirical_from_decomposition": 12.72906293319232,
+          "mse_decomposition_gap": 1.7763568394002505e-15,
+          "mean_sampling_variance": 0.09096673294272105,
+          "mean_sampling_stderr": 0.3014158854866918,
+          "mse_model_bias_plus_mean_sampling_var": 11.841545372205307
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 8.548157856823712,
+        "delta_model_based_mse": 8.764691752707392
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 11,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -5.925054584330909,
+          "estimate_std": 0.7820026861565237,
+          "bias_empirical": 4.439341103298495,
+          "var_empirical": 0.6115282011560185,
+          "mse_empirical": 20.319277632591437,
+          "mse_empirical_from_decomposition": 20.31927763259152,
+          "mse_decomposition_gap": -8.171241461241152e-14,
+          "mean_sampling_variance": 0.017004257573653155,
+          "mean_sampling_stderr": 0.1302919306477029,
+          "mse_model_bias_plus_mean_sampling_var": 19.72475368900915
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -10.364395687629404,
+          "estimate_mean": -6.2075072659434305,
+          "estimate_std": 0.8424877285429941,
+          "bias_empirical": 4.156888421685974,
+          "var_empirical": 0.7097855727455338,
+          "mse_empirical": 17.989506923092385,
+          "mse_empirical_from_decomposition": 17.98950692309244,
+          "mse_decomposition_gap": -5.3290705182007514e-14,
+          "mean_sampling_variance": 0.04821580425222635,
+          "mean_sampling_stderr": 0.21948006731821684,
+          "mse_model_bias_plus_mean_sampling_var": 17.32793715459913
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 2.3297707094990514,
+        "delta_model_based_mse": 2.3968165344100214
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 5,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.1772916666666666,
+          "estimate_std": 0.13537331036700762,
+          "bias_empirical": 0.8227043321600167,
+          "var_empirical": 0.018325933159722172,
+          "mse_empirical": 0.6951683513145851,
+          "mse_empirical_from_decomposition": 0.6951683513145813,
+          "mse_decomposition_gap": 3.774758283725532e-15,
+          "mean_sampling_variance": 0.00037905951648301543,
+          "mean_sampling_stderr": 0.019415782216228698,
+          "mse_model_bias_plus_mean_sampling_var": 0.6772214776713421
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.3992066427538417,
+          "estimate_std": 0.3320916177728929,
+          "bias_empirical": 0.6007893560728417,
+          "var_empirical": 0.11028484259501721,
+          "mse_empirical": 0.471232692965447,
+          "mse_empirical_from_decomposition": 0.47123269296543696,
+          "mse_decomposition_gap": 1.0047518372857667e-14,
+          "mean_sampling_variance": 0.0013018004184624172,
+          "mean_sampling_stderr": 0.03523924758936411,
+          "mse_model_bias_plus_mean_sampling_var": 0.36224965078888216
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.2239356583491381,
+        "delta_model_based_mse": 0.31497182688245995
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 5,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.2591666666666668,
+          "estimate_std": 0.16744816776808533,
+          "bias_empirical": 0.7408293321600166,
+          "var_empirical": 0.02803888888888885,
+          "mse_empirical": 0.5768669882775493,
+          "mse_empirical_from_decomposition": 0.576866988277545,
+          "mse_decomposition_gap": 4.3298697960381105e-15,
+          "mean_sampling_variance": 0.002749566624895572,
+          "mean_sampling_stderr": 0.05208314992978964,
+          "mse_model_bias_plus_mean_sampling_var": 0.5515776660135517
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.2218671559768586,
+          "estimate_std": 0.6993092903011717,
+          "bias_empirical": 0.7781288428498248,
+          "var_empirical": 0.4890334835015285,
+          "mse_empirical": 1.0945179795763569,
+          "mse_empirical_from_decomposition": 1.0945179795763358,
+          "mse_decomposition_gap": 2.1094237467877974e-14,
+          "mean_sampling_variance": 0.012353682114157149,
+          "mean_sampling_stderr": 0.10311771443513527,
+          "mse_model_bias_plus_mean_sampling_var": 0.6178381781889644
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "FR",
+        "winner_by_model_based_mse": "FR",
+        "delta_empirical_mse": -0.5176509912988075,
+        "delta_model_based_mse": -0.06626051217541262
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 5,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.2041666666666666,
+          "estimate_std": 0.19190474344204106,
+          "bias_empirical": 0.7958293321600167,
+          "var_empirical": 0.0368274305555556,
+          "mse_empirical": 0.6701717564818189,
+          "mse_empirical_from_decomposition": 0.6701717564818138,
+          "mse_decomposition_gap": 5.10702591327572e-15,
+          "mean_sampling_variance": 0.0014748148727576134,
+          "mean_sampling_stderr": 0.03821960528193918,
+          "mse_model_bias_plus_mean_sampling_var": 0.6348191407990158
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.4563731274271166,
+          "estimate_std": 0.2925988766323466,
+          "bias_empirical": 0.5436228713995668,
+          "var_empirical": 0.0856141026065112,
+          "mse_empirical": 0.38113992891522996,
+          "mse_empirical_from_decomposition": 0.38113992891522114,
+          "mse_decomposition_gap": 8.826273045769994e-15,
+          "mean_sampling_variance": 0.004767041971875115,
+          "mean_sampling_stderr": 0.0673808349663862,
+          "mse_model_bias_plus_mean_sampling_var": 0.30029286828058505
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.28903182756658896,
+        "delta_model_based_mse": 0.33452627251843076
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 5,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.1410416666666667,
+          "estimate_std": 0.14332485440037554,
+          "bias_empirical": 0.8589543321600166,
+          "var_empirical": 0.02054201388888885,
+          "mse_empirical": 0.7583445586253527,
+          "mse_empirical_from_decomposition": 0.758344558625349,
+          "mse_decomposition_gap": 3.6637359812630166e-15,
+          "mean_sampling_variance": 0.000761780230482593,
+          "mean_sampling_stderr": 0.027501405165318838,
+          "mse_model_bias_plus_mean_sampling_var": 0.7385643249669427
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -3.9999959988266833,
+          "estimate_mean": -3.4205166297039105,
+          "estimate_std": 0.20709332919770657,
+          "bias_empirical": 0.5794793691227729,
+          "var_empirical": 0.042887646998189664,
+          "mse_empirical": 0.37868398623712274,
+          "mse_empirical_from_decomposition": 0.3786839862371165,
+          "mse_decomposition_gap": 6.217248937900877e-15,
+          "mean_sampling_variance": 0.002632020239807736,
+          "mean_sampling_stderr": 0.05095662957968179,
+          "mse_model_bias_plus_mean_sampling_var": 0.3384283594787346
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 0.3796605723882299,
+        "delta_model_based_mse": 0.40013596548820807
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 7,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -5.233992803516331,
+          "estimate_std": 0.2435751263564265,
+          "bias_empirical": 1.7642568763878685,
+          "var_empirical": 0.05932884217954914,
+          "mse_empirical": 3.171931168061432,
+          "mse_empirical_from_decomposition": 3.1719311680614277,
+          "mse_decomposition_gap": 4.440892098500626e-15,
+          "mean_sampling_variance": 0.001430080388328142,
+          "mean_sampling_stderr": 0.03770960002911242,
+          "mse_model_bias_plus_mean_sampling_var": 3.1140324062702067
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -5.850219846137791,
+          "estimate_std": 0.15131635539195837,
+          "bias_empirical": 1.148029833766408,
+          "var_empirical": 0.022896639409105447,
+          "mse_empirical": 1.340869138626836,
+          "mse_empirical_from_decomposition": 1.340869138626832,
+          "mse_decomposition_gap": 3.9968028886505635e-15,
+          "mean_sampling_variance": 0.005274810733797703,
+          "mean_sampling_stderr": 0.07223312895874978,
+          "mse_model_bias_plus_mean_sampling_var": 1.3232473099515243
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 1.831062029434596,
+        "delta_model_based_mse": 1.7907850963186824
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 7,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -5.4624826620342315,
+          "estimate_std": 0.32166001903971597,
+          "bias_empirical": 1.5357670178699676,
+          "var_empirical": 0.10346516784863044,
+          "mse_empirical": 2.462045501025858,
+          "mse_empirical_from_decomposition": 2.4620455010258437,
+          "mse_decomposition_gap": 1.4210854715202004e-14,
+          "mean_sampling_variance": 0.009727425949845903,
+          "mean_sampling_stderr": 0.09802343113179515,
+          "mse_model_bias_plus_mean_sampling_var": 2.368307759127059
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -5.828111134132561,
+          "estimate_std": 0.2068019579936583,
+          "bias_empirical": 1.1701385457716382,
+          "var_empirical": 0.04276704983001081,
+          "mse_empirical": 1.4119912661305725,
+          "mse_empirical_from_decomposition": 1.4119912661305751,
+          "mse_decomposition_gap": -2.6645352591003757e-15,
+          "mean_sampling_variance": 0.0415474925077951,
+          "mean_sampling_stderr": 0.20200968059433835,
+          "mse_model_bias_plus_mean_sampling_var": 1.4107717088083596
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 1.0500542348952855,
+        "delta_model_based_mse": 0.9575360503186996
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 7,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -5.392256301245065,
+          "estimate_std": 0.1952538401029599,
+          "bias_empirical": 1.605993378659134,
+          "var_empirical": 0.03812406207495223,
+          "mse_empirical": 2.6173387943719444,
+          "mse_empirical_from_decomposition": 2.617338794371933,
+          "mse_decomposition_gap": 1.1546319456101628e-14,
+          "mean_sampling_variance": 0.005276694654977904,
+          "mean_sampling_stderr": 0.07254643104379112,
+          "mse_model_bias_plus_mean_sampling_var": 2.5844914269519585
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -6.021787508839561,
+          "estimate_std": 0.0628017056910543,
+          "bias_empirical": 0.9764621710646377,
+          "var_empirical": 0.003944054237705802,
+          "mse_empirical": 0.9574224257579679,
+          "mse_empirical_from_decomposition": 0.9574224257579717,
+          "mse_decomposition_gap": -3.774758283725532e-15,
+          "mean_sampling_variance": 0.01851533910263612,
+          "mean_sampling_stderr": 0.13581474732602747,
+          "mse_model_bias_plus_mean_sampling_var": 0.971993710622902
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 1.6599163686139766,
+        "delta_model_based_mse": 1.6124977163290566
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 7,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -5.37478676651905,
+          "estimate_std": 0.13653152919501257,
+          "bias_empirical": 1.6234629133851488,
+          "var_empirical": 0.018640858464328572,
+          "mse_empirical": 2.654272689601331,
+          "mse_empirical_from_decomposition": 2.654272689601324,
+          "mse_decomposition_gap": 7.105427357601002e-15,
+          "mean_sampling_variance": 0.0025832718006275,
+          "mean_sampling_stderr": 0.05075948688633225,
+          "mse_model_bias_plus_mean_sampling_var": 2.6382151029376226
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -6.998249679904199,
+          "estimate_mean": -5.88383398505562,
+          "estimate_std": 0.280823268169804,
+          "bias_empirical": 1.1144156948485788,
+          "var_empirical": 0.07886170794556967,
+          "mse_empirical": 1.320784048870414,
+          "mse_empirical_from_decomposition": 1.3207840488704103,
+          "mse_decomposition_gap": 3.552713678800501e-15,
+          "mean_sampling_variance": 0.009830702421148974,
+          "mean_sampling_stderr": 0.09760149983938114,
+          "mse_model_bias_plus_mean_sampling_var": 1.2517530433459898
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 1.333488640730917,
+        "delta_model_based_mse": 1.3864620595916328
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 9,
+        "budget_total": 16000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -7.721052573645151,
+          "estimate_std": 0.18817775017976432,
+          "bias_empirical": 2.276098785908033,
+          "var_empirical": 0.03541086566271779,
+          "mse_empirical": 5.216036548874749,
+          "mse_empirical_from_decomposition": 5.21603654887474,
+          "mse_decomposition_gap": 8.881784197001252e-15,
+          "mean_sampling_variance": 0.002626274652172294,
+          "mean_sampling_stderr": 0.051205660130118874,
+          "mse_model_bias_plus_mean_sampling_var": 5.1832519578641945
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -8.70782657346486,
+          "estimate_std": 0.2792246656878654,
+          "bias_empirical": 1.289324786088324,
+          "var_empirical": 0.0779664139285002,
+          "mse_empirical": 1.740324817950214,
+          "mse_empirical_from_decomposition": 1.7403248179502022,
+          "mse_decomposition_gap": 1.176836406102666e-14,
+          "mean_sampling_variance": 0.005186726389530127,
+          "mean_sampling_stderr": 0.07171025803630127,
+          "mse_model_bias_plus_mean_sampling_var": 1.6675451304112323
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 3.475711730924535,
+        "delta_model_based_mse": 3.515706827452962
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 9,
+        "budget_total": 2000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -8.00237670825906,
+          "estimate_std": 0.16253815512027298,
+          "bias_empirical": 1.994774651294124,
+          "var_empirical": 0.02641865186990192,
+          "mse_empirical": 4.005544561315508,
+          "mse_empirical_from_decomposition": 4.005544561315496,
+          "mse_decomposition_gap": 1.2434497875801753e-14,
+          "mean_sampling_variance": 0.018392928555905477,
+          "mean_sampling_stderr": 0.1355217969628328,
+          "mse_model_bias_plus_mean_sampling_var": 3.9975188380014997
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -8.6196607308533,
+          "estimate_std": 0.44273598636623196,
+          "bias_empirical": 1.377490628699885,
+          "var_empirical": 0.19601515362368033,
+          "mse_empirical": 2.093495585779717,
+          "mse_empirical_from_decomposition": 2.0934955857796846,
+          "mse_decomposition_gap": 3.241851231905457e-14,
+          "mean_sampling_variance": 0.04303115170775532,
+          "mean_sampling_stderr": 0.20556179202476163,
+          "mse_model_bias_plus_mean_sampling_var": 1.9405115838637594
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 1.9120489755357912,
+        "delta_model_based_mse": 2.05700725413774
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 9,
+        "budget_total": 4000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -7.854153446987323,
+          "estimate_std": 0.1783691405268495,
+          "bias_empirical": 2.1429979125658614,
+          "var_empirical": 0.031815550292286984,
+          "mse_empirical": 4.624255603553942,
+          "mse_empirical_from_decomposition": 4.624255603553927,
+          "mse_decomposition_gap": 1.509903313490213e-14,
+          "mean_sampling_variance": 0.00995711842416139,
+          "mean_sampling_stderr": 0.0996892183679932,
+          "mse_model_bias_plus_mean_sampling_var": 4.6023971716858005
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -8.649070121498154,
+          "estimate_std": 0.3652680748227147,
+          "bias_empirical": 1.3480812380550304,
+          "var_empirical": 0.13342076648469228,
+          "mse_empirical": 1.9507437908807035,
+          "mse_empirical_from_decomposition": 1.950743790880676,
+          "mse_decomposition_gap": 2.7533531010703882e-14,
+          "mean_sampling_variance": 0.02414520383051973,
+          "mean_sampling_stderr": 0.15401265227628191,
+          "mse_model_bias_plus_mean_sampling_var": 1.8414682282265034
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 2.6735118126732385,
+        "delta_model_based_mse": 2.760928943459297
+      }
+    },
+    {
+      "group": {
+        "dataset_tag": "qwc_hamiltonian_hardware_with_snapshot_fill_locked_state_vqe",
+        "num_qubits": 9,
+        "budget_total": 8000
+      },
+      "methods": {
+        "FR": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -7.68832400661669,
+          "estimate_std": 0.21390747753734748,
+          "bias_empirical": 2.308827352936494,
+          "var_empirical": 0.04575640894639082,
+          "mse_empirical": 5.3764401546141425,
+          "mse_empirical_from_decomposition": 5.376440154614129,
+          "mse_decomposition_gap": 1.3322676295501878e-14,
+          "mean_sampling_variance": 0.005357394305108773,
+          "mean_sampling_stderr": 0.07312339534565884,
+          "mse_model_bias_plus_mean_sampling_var": 5.336041139972847
+        },
+        "PS_QWC": {
+          "n": 3,
+          "exact_energy": -9.997151359553184,
+          "estimate_mean": -8.634044641876164,
+          "estimate_std": 0.39248081981661365,
+          "bias_empirical": 1.3631067176770202,
+          "var_empirical": 0.15404119392392115,
+          "mse_empirical": 2.012101117700175,
+          "mse_empirical_from_decomposition": 2.0121011177001407,
+          "mse_decomposition_gap": 3.419486915845482e-14,
+          "mean_sampling_variance": 0.01174247171165778,
+          "mean_sampling_stderr": 0.10714628702334363,
+          "mse_model_bias_plus_mean_sampling_var": 1.8698023954878775
+        }
+      },
+      "comparison": {
+        "winner_by_empirical_mse": "PS_QWC",
+        "winner_by_model_based_mse": "PS_QWC",
+        "delta_empirical_mse": 3.3643390369139676,
+        "delta_model_based_mse": 3.46623874448497
+      }
+    }
+  ]
+}
