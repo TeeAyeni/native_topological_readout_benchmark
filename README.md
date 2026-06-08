@@ -1,6 +1,8 @@
 # Native topological readout benchmark Public Code Subset
 
-This folder contains the self-contained public release for the research study on the native topological Hamiltonian measurement benchmark. The layout is organized around what a new user actually needs to do:
+This folder contains the self-contained public release of code accompanying the research study on the "native topological Hamiltonian measurement benchmark" work documented in my research paper available on arXiv [here](https://arxiv.org/abs/2605.25913)
+
+The layout is organized around what a new user actually needs to do:
 
 - run a workflow
 - reduce or analyze outputs
