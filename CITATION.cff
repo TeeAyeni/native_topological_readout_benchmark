@@ -17,5 +17,5 @@ keywords:
   - "Fibonacci anyons"
   - "measurement compilation"
 version: "1.0.0"
-date-released: 2026-05-24
-license: "NOASSERTION"
+date-released: "2026-05-24"
+license: "MIT"
